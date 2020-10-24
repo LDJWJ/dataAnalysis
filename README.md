@@ -9,4 +9,5 @@
  
  * 나의 데이터 분석 코드
    * [github 코드](https://github.com/LDJWJ/dataAnalysis/blob/main/01_01_california.ipynb)
+   * [HTML코드](https://ldjwj.github.io/dataAnalysis/01_01_california.html)
  
