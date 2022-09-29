@@ -126,12 +126,18 @@
    
 ## 인구 출생자수 예측 
  * [생활-통계] 
- * 데이터 분석 코드 - 2030년 출생자수 예측해 보기
-   * [HTML코드](https://ldjwj.github.io/dataAnalysis/01_12_Population_analysis01.html)
  * 데이터 출처 :  
  * 데이터 내용
   ![데이터 내용 캡쳐 이미지](https://github.com/LDJWJ/dataAnalysis/blob/main/img/population_no14.png)
     * 1970년부터 2021년까지 인구 통계 데이터
+ 
+ * 데이터 분석 코드 - 데이터 탐색 및 시각화
+   * [HTML코드](https://ldjwj.github.io/dataAnalysis/01_12_Population_Analysis01_EDA.html)
+   * [pdf](https://ldjwj.github.io/dataAnalysis/01_12_Population_Analysis01_EDA.pdf)
+   
+ * 데이터 분석 코드 - 2030년 출생자수 예측해 보기
+   * [HTML코드](https://ldjwj.github.io/dataAnalysis/01_12_Population_Analysis02.html)
+   * [pdf](https://ldjwj.github.io/dataAnalysis/01_12_Population_Analysis01_EDA.pdf)
 
 
 ## 문화 예술인 데이터 셋. 현황 분석
