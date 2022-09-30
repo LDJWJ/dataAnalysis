@@ -34,6 +34,7 @@
  * Feature Engineering
  * 머신러닝 모델 만들기
  * 최종결과
+ * [처음목록으로 가기](#데이터-알아가기-실전-실습)
 
 
 ## 03 뇌졸중 예측 데이터 분석
@@ -43,7 +44,8 @@
  * 데이터 분석 코드
    * [github 코드](https://github.com/LDJWJ/dataAnalysis/blob/main/01_02_Stroke_Prediction_Analysis_01.ipynb)
    * [HTML코드](https://ldjwj.github.io/dataAnalysis/01_02_Stroke_Prediction_Analysis_01.html)
-
+   
+ * [처음목록으로 가기](#데이터-알아가기-실전-실습)
    
 ## 04 은행파산 위기 데이터 분석
  * 개인 파산 예측
@@ -53,7 +55,7 @@
    * [github 코드2](https://github.com/LDJWJ/dataAnalysis/blob/main/01_03_Bankruptcy_Risk_Prediction02.ipynb)
    * [HTML코드1-시작](https://ldjwj.github.io/dataAnalysis/01_03_Bankruptcy_Risk_Prediction01_v10_220518.html)
    * [HTML코드2-피처변환](https://ldjwj.github.io/dataAnalysis/01_03_Bankruptcy_Risk_Prediction02.html)
-   
+ * [처음목록으로 가기](#데이터-알아가기-실전-실습)
    
 ## 05 Spaceship Titanic 데이터 분석
  * 우주선에서 승객을 보낼때, 다른 차원 이송되었는지, 아닌지 예측하기
@@ -64,7 +66,7 @@
    * [HTML 코드](https://ldjwj.github.io/dataAnalysis/01_04A_Spaceship_Titanic.html)
 
  * 데이터 처리 및 모델링(결측치 처리/라벨인코딩 등)
-
+ * [처음목록으로 가기](#데이터-알아가기-실전-실습)
 
 
 ## 06 태풍 데이터 셋 데이터 분석 
@@ -74,7 +76,7 @@
  * 데이터 분석 코드
    * [github 코드](https://github.com/LDJWJ/dataAnalysis/blob/main/01_05_Typhoon_analysis.ipynb)
    * [HTML코드](https://ldjwj.github.io/dataAnalysis/01_05_Typhoon_analysis.html)
-   
+ * [처음목록으로 가기](#데이터-알아가기-실전-실습)
    
 ## 07 Wine Quality Dataset 분석
  * 와인 품질 예측 모델 만들기
@@ -83,7 +85,7 @@
  * 데이터 분석 코드
    * [github 코드](https://github.com/LDJWJ/dataAnalysis/blob/main/01_06_WindQT_DataAnalysis.ipynb)
    * [HTML코드](https://ldjwj.github.io/dataAnalysis/01_06_WindQT_DataAnalysis.html)
-   
+ * [처음목록으로 가기](#데이터-알아가기-실전-실습)
 
 ## 08 Human Stress Detection in and through Sleep 데이터 분석
  * 수면의 인간의 스트레스 감지 
@@ -92,7 +94,7 @@
  * 데이터 분석 코드
    * [github 코드](https://github.com/LDJWJ/dataAnalysis/blob/main/01_07_Human_Stress_Detection.ipynb)
    * [HTML코드](https://ldjwj.github.io/dataAnalysis/01_07_Human_Stress_Detection.html)
-
+ * [처음목록으로 가기](#데이터-알아가기-실전-실습)
 
 ## 09 ibovespa-stocks 브라질 주식 데이터 분석
  * [경제-주식]
@@ -105,7 +107,9 @@
 
  * 데이터 분석 코드 - Prophet를 활용 
    * [github 코드](https://ldjwj.github.io/dataAnalysis/01_08B_ivospa_stock_Prophet.ipynb), [PDF 코드](https://ldjwj.github.io/dataAnalysis/01_08B_ivospa_stock_Prophet.pdf), [HTML 코드](https://ldjwj.github.io/dataAnalysis/01_08B_ivospa_stock_Prophet.html)
-
+   
+ * [처음목록으로 가기](#데이터-알아가기-실전-실습)
+ 
 ## 10 Body Fat Prediction Dataset 데이터 분석
  * [생활-건강]
  * Body fat estimates and various body circumference measurements for 252 men
@@ -116,6 +120,8 @@
    * [github 코드](https://github.com/LDJWJ/dataAnalysis/blob/main/01_09_bodyFatPredict.ipynb)
    * [HTML코드](https://ldjwj.github.io/dataAnalysis/01_09_bodyFatPredict.html)
 
+ * [처음목록으로 가기](#데이터-알아가기-실전-실습)
+
 ## 11 Personal Key Indicators of Heart Disease 데이터 분석
  * [의료-심장병]
  * 건강 상태와 관련된 40만 명의 성인을 대상으로 한 2020년 연간 CDC 설문 조사 데이터
@@ -125,7 +131,8 @@
    * [github 코드](https://github.com/LDJWJ/dataAnalysis/blob/main/01_10_Heart_Disease.ipynb)
    * [HTML코드](https://ldjwj.github.io/dataAnalysis/01_10_Heart_Disease.html)
    
-   
+ * [처음목록으로 가기](#데이터-알아가기-실전-실습)
+ 
 ## 12 MCU Worldwide Box Office Collection 데이터 분석
  * [생활-영화] Marvel Cinematic Universe 전세계 박스 오피스 컬렉션 데이터 세트
  * ---
@@ -136,7 +143,9 @@
    * [HTML코드-기본모델](https://ldjwj.github.io/dataAnalysis/01_11_MCU_MOVIE_INFO.html)
    * [github 코드-데이터탐색](https://github.com/LDJWJ/dataAnalysis/blob/main/01_11_MCU_MOVIE_INFO_02.ipynb)
    * [HTML코드-데이터탐색](https://ldjwj.github.io/dataAnalysis/01_11_MCU_MOVIE_INFO_02.html)
-   
+
+ * [처음목록으로 가기](#데이터-알아가기-실전-실습)
+
 ## 13 인구 예측 및 국가 기반 시설 데이터 분석
  * [생활-통계, 건설] 
  * 데이터 출처
@@ -159,6 +168,7 @@
    * [HTML코드](https://ldjwj.github.io/dataAnalysis/01_12_Population_Analysis02.html)
    * [pdf](https://ldjwj.github.io/dataAnalysis/01_12_Population_Analysis01_EDA.pdf)
 
+ * [처음목록으로 가기](#데이터-알아가기-실전-실습)
 
 ## 14 문화 예술인 데이터 셋 현황 분석
  * [생활-통계] 
@@ -171,3 +181,5 @@
  * 데이터 내용
   ![데이터 내용 캡쳐 이미지](https://github.com/LDJWJ/dataAnalysis/blob/main/img/artist_no14.png)
     * 2019년도~2022년도 예술인 목록
+
+ * [처음목록으로 가기](#데이터-알아가기-실전-실습)
