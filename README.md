@@ -1,7 +1,20 @@
 # 데이터 알아가기 실전 실습
- * 캘리포니아 집값 데이터 
+ * 01 [캘리포니아 집값 데이터 분석] [이동](## 01. 캘리포니아 집값 데이터 분석)
+ * 02 [캐글 코리아 4차 대회]
+ * 03 [뇌졸중 예측 데이터 분석]
+ * 04 [은행파산 위기 데이터 분석]  
+ * 05 [Spaceship Titanic 데이터 분석] 
+ * 06 [태풍 데이터 셋 데이터 분석]  
+ * 07 [Wine Quality Dataset 분석] 
+ * 08 [Human Stress Detection in and through Sleep 데이터 분석] 
+ * 09 [ibovespa-stocks 브라질 주식 데이터 분석] 
+ * 10 [Body Fat Prediction Dataset 데이터 분석] 
+ * 11 [Personal Key Indicators of Heart Disease 데이터 분석] 
+ * 12 [MCU Worldwide Box Office Collection 데이터 분석]  
+ * 13 [인구 출생자수 예측 및 국가 기반 시설(교량 등) 건축물 데이터 분석]
+ * 14 [문화 예술인 데이터 셋. 현황 분석]
  
-## [캘리포니아 집값 데이터 분석] 
+## 01. 캘리포니아 집값 데이터 분석 
  * 1990년 미국 인구조사국 자료를 바탕으로 한 캘리포니아 주택 데이터
  * 데이터 출처 : 구글 콜랩 샘플 데이터 셋.
  
