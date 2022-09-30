@@ -124,13 +124,15 @@
    * [github 코드-데이터탐색](https://github.com/LDJWJ/dataAnalysis/blob/main/01_11_MCU_MOVIE_INFO_02.ipynb)
    * [HTML코드-데이터탐색](https://ldjwj.github.io/dataAnalysis/01_11_MCU_MOVIE_INFO_02.html)
    
-## 인구 출생자수 예측 
- * [생활-통계] 
- * 데이터 출처 :  
+## [인구 출생자수 예측 및 국가 기반 시설(교량 등) 건축물 데이터 분석]
+ * [생활-통계, 건설] 
+ * 데이터 출처
  * 데이터 내용
   ![데이터 내용 캡쳐 이미지](https://github.com/LDJWJ/dataAnalysis/blob/main/img/population_no14.png)
     * 1970년부터 2021년까지 인구 통계 데이터
- 
+  ![데이터 내용 캡쳐 이미지](https://github.com/LDJWJ/dataAnalysis/blob/main/img/population_no14_02.png)
+    * 1926년부터 2021년까지 년도별 교량, 터널, 지하차도 완공수(필요인력은 하나의 건설물당 4명씩으로 계산)
+    
  * 데이터 분석 코드 - 데이터 탐색 및 시각화
    * [HTML코드](https://ldjwj.github.io/dataAnalysis/01_12_Population_Analysis01_EDA.html)
    * [pdf](https://ldjwj.github.io/dataAnalysis/01_12_Population_Analysis01_EDA.pdf)
