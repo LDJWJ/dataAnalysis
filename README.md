@@ -13,6 +13,7 @@
  * 12 MCU Worldwide Box Office Collection 데이터 분석   [이동](#12-MCU-Worldwide-Box-Office-Collection-데이터-분석)
  * 13 인구 예측 및 국가 기반 시설 데이터 분석 [이동](#13-인구-예측-및-국가-기반-시설-데이터-분석)
  * 14 문화 예술인 데이터 셋 현황 분석 [이동](#14-문화-예술인-데이터-셋-현황-분석)
+ * 15 표면 균열 검출 [이동-](#14-표면-균열-검출)
  
 ## 01 캘리포니아 집값 데이터 분석
  * 1990년 미국 인구조사국 자료를 바탕으로 한 캘리포니아 주택 데이터
@@ -182,4 +183,17 @@
   ![데이터 내용 캡쳐 이미지](https://github.com/LDJWJ/dataAnalysis/blob/main/img/artist_no14.png)
     * 2019년도~2022년도 예술인 목록
 
+ * [처음목록으로 가기](#데이터-알아가기-실전-실습)
+
+
+## 15 표면 균열 검출
+ * [건축]
+ * Concrete surface sample images for Surface Crack Detection
+ * 2만여장의 이미지 데이터. 표면의 균열을 예측한다.
+ * 데이터 출처 : https://www.kaggle.com/datasets/arunrk7/surface-crack-detection
+ 
+ * 데이터 분석 코드
+   * [github 코드]
+   * [HTML코드]   
+ 
  * [처음목록으로 가기](#데이터-알아가기-실전-실습)
