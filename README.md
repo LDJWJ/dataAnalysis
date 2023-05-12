@@ -18,7 +18,7 @@
  * [16 Data Science Salaries 2023 데이터 분석](#sec-23-01)
 
 
-## [Data Science Salaries 2023 데이터 분석] {#sec-23-01}
+## Data Science Salaries 2023 데이터 분석{#sec-23-01}
  * [취업-연봉]
  * 2023년 데이터 과학 분야 직무 관련 데이터 셋 분석
  * 데이터 출처 : https://www.kaggle.com/datasets/arnabchaki/data-science-salaries-2023 
