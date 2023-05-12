@@ -14,7 +14,29 @@
  * 13 인구 예측 및 국가 기반 시설 데이터 분석 [이동](#13-인구-예측-및-국가-기반-시설-데이터-분석)
  * 14 문화 예술인 데이터 셋 현황 분석 [이동](#14-문화-예술인-데이터-셋-현황-분석)
  * 15 표면 균열 검출 [이동-준비중](#14-표면-균열-검출)
+ * 15 표면 균열 검출 [이동-준비중](#14-표면-균열-검출)
+ * 16 Data Science Salaries 2023 데이터 분석 (#sec-23-01) 
+
+
+## Data Science Salaries 2023 데이터 분석 {#sec-23-01} 
+ * [취업-연봉]
+ * 2023년 데이터 과학 분야 직무 관련 데이터 셋 분석
+ * 데이터 출처 : https://www.kaggle.com/datasets/arnabchaki/data-science-salaries-2023 
  
+ * 데이터 분석 코드
+   * [github 코드](https://github.com/LDJWJ/dataAnalysis/blob/main/01_19_DataScienceSalaries_Analysis_2305.ipynb)
+   * [HTML코드](https://ldjwj.github.io/dataAnalysis/01_19_DataScienceSalaries_Analysis_2305.html)
+
+
+## 캘리포니아 집값 데이터 분석 {#sec-23-01}
+ * 1990년 미국 인구조사국 자료를 바탕으로 한 캘리포니아 주택 데이터
+ * 데이터 출처 : 구글 콜랩 샘플 데이터 셋.
+ 
+ * 나의 데이터 분석 코드
+   * [github 코드](https://github.com/LDJWJ/dataAnalysis/blob/main/01_01_california.ipynb)
+   * [HTML코드](https://ldjwj.github.io/dataAnalysis/01_01_california.html)
+
+
 ## 01 캘리포니아 집값 데이터 분석
  * 1990년 미국 인구조사국 자료를 바탕으로 한 캘리포니아 주택 데이터
  * 데이터 출처 : 구글 콜랩 샘플 데이터 셋.
