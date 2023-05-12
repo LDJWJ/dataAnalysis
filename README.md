@@ -28,7 +28,7 @@
    * [HTML코드](https://ldjwj.github.io/dataAnalysis/01_19_DataScienceSalaries_Analysis_2305.html)
 
 
-## 캘리포니아 집값 데이터 분석 {#sec-23-01}
+## 캘리포니아 집값 데이터 분석
  * 1990년 미국 인구조사국 자료를 바탕으로 한 캘리포니아 주택 데이터
  * 데이터 출처 : 구글 콜랩 샘플 데이터 셋.
  
