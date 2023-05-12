@@ -15,10 +15,10 @@
  * 14 문화 예술인 데이터 셋 현황 분석 [이동](#14-문화-예술인-데이터-셋-현황-분석)
  * 15 표면 균열 검출 [이동-준비중](#14-표면-균열-검출)
  * 15 표면 균열 검출 [이동-준비중](#14-표면-균열-검출)
- * 16 Data Science Salaries 2023 데이터 분석 {#sec-23-01}
+ * [16 Data Science Salaries 2023 데이터 분석](#sec-23-01)
 
 
-## [Data Science Salaries 2023 데이터 분석](#sec-23-01)
+## [Data Science Salaries 2023 데이터 분석] {#sec-23-01}
  * [취업-연봉]
  * 2023년 데이터 과학 분야 직무 관련 데이터 셋 분석
  * 데이터 출처 : https://www.kaggle.com/datasets/arnabchaki/data-science-salaries-2023 
