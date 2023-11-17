@@ -208,7 +208,17 @@
  * [처음목록으로 가기](#데이터-알아가기-실전-실습)
 
 
-## 15 표면 균열 검출
+## 15 공공 데이터 분석
+ * [생활-통계] 
+ * 데이터 분석 코드 - 예술인 데이터 셋에 대한 기본 데이터 탐색
+   * [HTML코드](https://ldjwj.github.io/dataAnalysis/01_15_Population_Data.html)
+   
+ * 데이터 출처 : https://www.mois.go.kr/, 정책 자료 - 통계 - 주민등록 인구통계
+ * 데이터 내용
+  ![데이터 내용 캡쳐 이미지](https://github.com/LDJWJ/dataAnalysis/blob/main/img/data15_pop2.png)
+    * 2019년도~2022년도 예술인 목록
+
+## 16 표면 균열 검출
  * [건축]
  * Concrete surface sample images for Surface Crack Detection
  * 2만여장의 이미지 데이터. 표면의 균열을 예측한다.
