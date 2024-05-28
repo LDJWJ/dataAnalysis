@@ -78,7 +78,7 @@
    * [github 코드2](https://github.com/LDJWJ/dataAnalysis/blob/main/01_03_Bankruptcy_Risk_Prediction02.ipynb)
    * [HTML코드1-시작](https://ldjwj.github.io/dataAnalysis/01_03_Bankruptcy_Risk_Prediction01_v10_220518.html)
    * [HTML코드2-피처변환](https://ldjwj.github.io/dataAnalysis/01_03_Bankruptcy_Risk_Prediction02.html)
-   * [HTML코드3-데이터탐색부터~모델구축까지](https://ldjwj.github.io/dataAnalysis/01_03_Bankruptcy_Risk_Prediction04_V10.html)
+   * [HTML코드3-데이터탐색부터~모델구축까지](https://ldjwj.github.io/dataAnalysis/01_03_Bankruptcy_Risk_Prediction04_withkaggle_V10.html) [PDF](https://ldjwj.github.io/dataAnalysis/01_03_Bankruptcy_Risk_Prediction04_withkaggle_V10.pdf)
  * [처음목록으로 가기](#데이터-알아가기-실전-실습)
    
 ## 05 Spaceship Titanic 데이터 분석
