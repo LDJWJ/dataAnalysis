@@ -103,6 +103,9 @@
  * 데이터 분석 코드
    * [github 코드](https://github.com/LDJWJ/dataAnalysis/blob/main/01_05_Typhoon_analysis.ipynb)
    * [HTML코드](https://ldjwj.github.io/dataAnalysis/01_05_Typhoon_analysis.html)
+ * 추가 분석 1편 - 태풍 경로 지도(folium)와 기압·풍속·이동속도 변화, 예측 결과 돌아보기
+   * [github 코드 - 추가 분석 1편](https://github.com/LDJWJ/dataAnalysis/blob/main/01_05B_Typhoon_Track_Map.ipynb)
+   * [HTML코드 - 추가 분석 1편](https://ldjwj.github.io/dataAnalysis/01_05B_Typhoon_Track_Map.html)
  * [처음목록으로 가기](#데이터-알아가기-실전-실습)
    
 ## 07 Wine Quality Dataset 분석
