@@ -1,272 +1,175 @@
-# 데이터 알아가기 실전 실습
-> 분석별 핵심 인사이트와 추가 분석 시리즈는 [메인 페이지](https://ldjwj.github.io/dataAnalysis/)에서 한눈에 볼 수 있습니다.
+# 📊 데이터 알아가기 실전 분석 프로젝트 (dataAnalysis)
 
- * 01 캘리포니아 집값 데이터 분석 [이동](#01-캘리포니아-집값-데이터-분석)
- * 02 캐글 코리아 4차 대회 [이동](#02-캐글-코리아-4차-대회)
- * 03 뇌졸중 예측 데이터 분석 [이동](#03-뇌졸중-예측-데이터-분석)
- * 04 은행파산 위기 데이터 분석 [이동](#04-은행파산-위기-데이터-분석)
- * 05 Spaceship Titanic 데이터 분석 [이동](#05-spaceship-titanic-데이터-분석)
- * 06 태풍 데이터 셋 데이터 분석  [이동](#06-태풍-데이터-셋-데이터-분석)
- * 07 Wine Quality Dataset 분석  [이동](#07-wine-quality-dataset-분석)
- * 08 Human Stress Detection in and through Sleep 데이터 분석  [이동](#08-human-stress-detection-in-and-through-sleep-데이터-분석)
- * 09 ibovespa-stocks 브라질 주식 데이터 분석 [이동](#09-ibovespa-stocks-브라질-주식-데이터-분석)
- * 10 Body Fat Prediction Dataset 데이터 분석 [이동](#10-body-fat-prediction-dataset-데이터-분석)
- * 11 Personal Key Indicators of Heart Disease 데이터 분석  [이동](#11-personal-key-indicators-of-heart-disease-데이터-분석)
- * 12 MCU Worldwide Box Office Collection 데이터 분석   [이동](#12-mcu-worldwide-box-office-collection-데이터-분석)
- * 13 인구 예측 및 국가 기반 시설 데이터 분석 [이동](#13-인구-예측-및-국가-기반-시설-데이터-분석)
- * 14 문화 예술인 데이터 셋 현황 분석 [이동](#14-문화-예술인-데이터-셋-현황-분석)
- * 15 공공 데이터 분석 [이동](#15-공공-데이터-분석)
- * 16 표면 균열 검출 [이동-준비중](#16-표면-균열-검출)
- * 17 Data Science Salaries 2023 데이터 분석 [이동](#17-data-science-salaries-2023-데이터-분석)
+<p align="center">
+  <a href="https://ldjwj.github.io/dataAnalysis/">
+    <img src="https://img.shields.io/badge/🌐_웹_포트폴리오_바로가기-GitHub_Pages-2563EB?style=for-the-badge&logo=githubpages&logoColor=white" alt="Web Page"/>
+  </a>
+  <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.10+"/>
+  <img src="https://img.shields.io/badge/Pandas-EDA_%26_Preprocessing-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/>
+  <img src="https://img.shields.io/badge/Kaggle-Datasets_%26_Competitions-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle"/>
+  <img src="https://img.shields.io/badge/Scikit--Learn-Machine_Learning-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-Learn"/>
+  <img src="https://img.shields.io/badge/Plotly-Interactive_Vis-3F4F75?style=for-the-badge&logo=plotly&logoColor=white" alt="Plotly"/>
+  <img src="https://img.shields.io/badge/License-CC_BY--NC_4.0-lightgrey.svg?style=for-the-badge" alt="License"/>
+</p>
 
+> **실제 비즈니스·의료·금융·공공 데이터셋으로 완성하는 실전 데이터 분석(EDA) & 머신러닝 포트폴리오!**  
+> 캐글(Kaggle) 및 공공데이터 포털의 17개 이상 다양한 도메인 데이터를 기반으로 결측치 처리, 피처 엔지니어링, Plotly 인터랙티브 시각화, 교차검증 파이프라인, 예측 모델링을 수행한 실전 프로젝트 모음집입니다.  
+> ⭐️ 학습에 도움이 되셨다면 우측 상단의 **Star** 버튼을 꾹 눌러주세요!
 
-## 17 Data Science Salaries 2023 데이터 분석
- * [취업-연봉]
- * 2023년 데이터 과학 분야 직무 관련 데이터 셋 분석
- * 데이터 출처 : https://www.kaggle.com/datasets/arnabchaki/data-science-salaries-2023 
- 
- * 데이터 분석 코드
-   * [github 코드](https://github.com/LDJWJ/dataAnalysis/blob/main/01_19_DataScienceSalaries_Analysis_2305.ipynb)
-   * [HTML코드](https://ldjwj.github.io/dataAnalysis/01_19_DataScienceSalaries_Analysis_2305.html)
- * 추가 분석 1편 - 연봉 결정 요인(경력 × 기업 규모 × 원격 근무), 직무 그룹화와 표본 수를 고려한 순위
-   * [github 코드 - 추가 분석 1편](https://github.com/LDJWJ/dataAnalysis/blob/main/01_19B_DataScienceSalaries_Analysis_Advanced.ipynb)
-   * [HTML코드 - 추가 분석 1편](https://ldjwj.github.io/dataAnalysis/01_19B_DataScienceSalaries_Analysis_Advanced.html)
- * 추가 분석 2편 - 연봉 예측 모델(선형 회귀 vs 랜덤포레스트, 교차검증, permutation importance)과 국가별 연봉 지도
-   * [github 코드 - 추가 분석 2편](https://github.com/LDJWJ/dataAnalysis/blob/main/01_19C_DataScienceSalaries_Prediction_Model.ipynb)
-   * [HTML코드 - 추가 분석 2편](https://ldjwj.github.io/dataAnalysis/01_19C_DataScienceSalaries_Prediction_Model.html)
- * [처음목록으로 가기](#데이터-알아가기-실전-실습)
+<p align="center">
+  <a href="#-도메인별-프로젝트-맵">🗺️ 도메인 맵</a> •
+  <a href="#-프로젝트-마스터-인덱스-표">📋 마스터 인덱스</a> •
+  <a href="#1-비즈니스--금융--경제-도메인">💰 금융·경제</a> •
+  <a href="#2-의료--헬스케어-도메인">🏥 의료·헬스케어</a> •
+  <a href="#3-부동산--공공--환경-도메인">🏙️ 공공·부동산</a> •
+  <a href="#4-엔터테인먼트--라이프--인공지능">🎬 엔터·라이프</a>
+</p>
 
+---
 
-## 01 캘리포니아 집값 데이터 분석
- * 1990년 미국 인구조사국 자료를 바탕으로 한 캘리포니아 주택 데이터
- * 데이터 출처 : 구글 콜랩 샘플 데이터 셋.
- 
- * 나의 데이터 분석 코드
-   * [github 코드](https://github.com/LDJWJ/dataAnalysis/blob/main/01_01_california.ipynb)
-   * [HTML코드](https://ldjwj.github.io/dataAnalysis/01_01_california.html)
- * 추가 분석 1편 - 지도로 보는 집값 (해안·대도시 거리, 파생 변수, 집값 상한 절단)
-   * [github 코드 - 추가 분석 1편](https://github.com/LDJWJ/dataAnalysis/blob/main/01_01B_California_Housing_Map.ipynb)
-   * [HTML코드 - 추가 분석 1편](https://ldjwj.github.io/dataAnalysis/01_01B_California_Housing_Map.html)
- * 추가 분석 2편 - 집값 예측 모델 (선형 회귀 vs 랜덤포레스트/그래디언트 부스팅, 파생 변수 효과, 잔차 지도)
-   * [github 코드 - 추가 분석 2편](https://github.com/LDJWJ/dataAnalysis/blob/main/01_01C_California_Housing_Model.ipynb)
-   * [HTML코드 - 추가 분석 2편](https://ldjwj.github.io/dataAnalysis/01_01C_California_Housing_Model.html)
- *  [처음목록으로 가기](#데이터-알아가기-실전-실습)
-   
-## 02 캐글 코리아 4차 대회
- * 성인 인구조사 데이터로 소득 수준 예측하기
- * 대회 기간 : 2020/10/16 ~ 2020/11/28
- * 대회 개요 : 
- * 데이터 출처 : https://www.kaggle.com/c/kakr-4th-competition
- 
- * 데이터 EDA1
- * 데이터 EDA2
- * Feature Engineering
- * 머신러닝 모델 만들기
- * 최종결과
- * [처음목록으로 가기](#데이터-알아가기-실전-실습)
+## 🗺️ 도메인별 프로젝트 맵
 
+```mermaid
+mindmap
+  root((📊 dataAnalysis<br>실전 데이터 분석))
+    💰 금융 & 경제
+      Data Science Salaries 2023 (연봉 분석)
+      은행 파산 위기 예측 (Bankruptcy Risk)
+      브라질 주식 시계열 예측 (ibovespa / Prophet / 금리·환율)
+      캐글 코리아 4차 대회 (성인 소득 예측)
+    🏥 의료 & 헬스케어
+      뇌졸중 발병 위험 예측 (Stroke Prediction)
+      심장병 핵심 지표 분석 (정확도의 함정 / 오즈비 순위)
+      수면 스트레스 감지 (SaYoPillow)
+      체지방률 추정 (줄자 기반 단순 예측 모델)
+    🏙️ 부동산 & 공공 & 환경
+      캘리포니아 주택 가격 예측 (집값 지도 & 특성 모델링)
+      인구 통계 및 국가 기반시설 2030 출생아 예측
+      행정안전부 주민등록 인구통계 (수도권 집중 / 성비 분석)
+      문화 예술인 및 예술단체 현황 분석
+      기상청 태풍 이동 속도 예측
+    🎬 엔터 & 라이프 & 비전
+      MCU 마블 전세계 박스오피스 흥행 분석 (지역별 패턴)
+      와인 품질 다중 분류 (교차검증 & Pipeline)
+      우주선 타이타닉 차원 이동 예측 (Spaceship Titanic)
+      콘크리트 표면 균열 검출 이미지 (Surface Crack)
+```
 
-## 03 뇌졸중 예측 데이터 분석
- * 뇌졸증 예측하기
- * 데이터 출처 : https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset
- 
- * 데이터 분석 코드
-   * [github 코드](https://github.com/LDJWJ/dataAnalysis/blob/main/01_02_Stroke_Prediction_Analysis_01.ipynb)
-   * [HTML코드](https://ldjwj.github.io/dataAnalysis/01_02_Stroke_Prediction_Analysis_01.html)
-   
- * 추가 분석 1편 - 정확도의 함정 : 기준선(Dummy) 비교, 오차행렬, 정밀도/재현율/F1, ROC·PR 곡선
-   * [github 코드 - 추가 분석 1편](https://github.com/LDJWJ/dataAnalysis/blob/main/01_02B_Stroke_Accuracy_Trap_Metrics.ipynb)
-   * [HTML코드 - 추가 분석 1편](https://ldjwj.github.io/dataAnalysis/01_02B_Stroke_Accuracy_Trap_Metrics.html)
- * 추가 분석 2편 - 불균형 처리 비교(class_weight, 오버샘플링, 임계값 조정)와 위험 요인 EDA
-   * [github 코드 - 추가 분석 2편](https://github.com/LDJWJ/dataAnalysis/blob/main/01_02C_Stroke_Imbalance_Handling_RiskFactors.ipynb)
-   * [HTML코드 - 추가 분석 2편](https://ldjwj.github.io/dataAnalysis/01_02C_Stroke_Imbalance_Handling_RiskFactors.html)
- * [처음목록으로 가기](#데이터-알아가기-실전-실습)
-   
-## 04 은행파산 위기 데이터 분석
- * 개인 파산 예측
- * 데이터 출처 : https://www.kaggle.com/competitions/bankruptcy-risk-prediction
- 
- * 데이터 분석 코드
-   * [github 코드2](https://github.com/LDJWJ/dataAnalysis/blob/main/01_03_Bankruptcy_Risk_Prediction02.ipynb)
-   * [HTML코드1-시작](https://ldjwj.github.io/dataAnalysis/01_03_Bankruptcy_Risk_Prediction01_v10_220518.html)
-   * [HTML코드2-피처변환](https://ldjwj.github.io/dataAnalysis/01_03_Bankruptcy_Risk_Prediction02.html)
-   * [HTML코드3-데이터탐색부터~모델구축까지](https://ldjwj.github.io/dataAnalysis/01_03_Bankruptcy_Risk_Prediction04_withkaggle_V10.html) [PDF](https://ldjwj.github.io/dataAnalysis/01_03_Bankruptcy_Risk_Prediction04_withkaggle_V10.pdf)
- * [처음목록으로 가기](#데이터-알아가기-실전-실습)
-   
-## 05 Spaceship Titanic 데이터 분석
- * 우주선에서 승객을 보낼때, 다른 차원 이송되었는지, 아닌지 예측하기
- * 데이터 출처 : https://www.kaggle.com/competitions/spaceship-titanic/data
- 
- * 데이터 기본 탐색 및 첫 모델 만들기
-   * [PDF 코드](https://ldjwj.github.io/dataAnalysis/01_04A_Spaceship_Titanic_2209.pdf)
-   * [HTML 코드](https://ldjwj.github.io/dataAnalysis/01_04A_Spaceship_Titanic_2209.html)
+---
 
- * 데이터 처리 및 모델링(결측치 처리/라벨인코딩 등)
- * [처음목록으로 가기](#데이터-알아가기-실전-실습)
+## 📋 프로젝트 마스터 인덱스 표
 
+모든 분석 프로젝트는 GitHub 소스코드(`.ipynb`), 브라우저에서 바로 열람 가능한 **HTML 뷰어**, 심화 추가 분석 링크를 지원합니다.
 
-## 06 태풍 데이터 셋 데이터 분석
- * 태풍 데이터 이동 속도 예측 모델 만들기
- * 데이터 출처 : https://data.kma.go.kr/data/weatherIssue/typList.do?pgmNo=724
- 
- * 데이터 분석 코드
-   * [github 코드](https://github.com/LDJWJ/dataAnalysis/blob/main/01_05_Typhoon_analysis.ipynb)
-   * [HTML코드](https://ldjwj.github.io/dataAnalysis/01_05_Typhoon_analysis.html)
- * 추가 분석 1편 - 태풍 경로 지도(folium)와 기압·풍속·이동속도 변화, 예측 결과 돌아보기
-   * [github 코드 - 추가 분석 1편](https://github.com/LDJWJ/dataAnalysis/blob/main/01_05B_Typhoon_Track_Map.ipynb)
-   * [HTML코드 - 추가 분석 1편](https://ldjwj.github.io/dataAnalysis/01_05B_Typhoon_Track_Map.html)
- * [처음목록으로 가기](#데이터-알아가기-실전-실습)
-   
-## 07 Wine Quality Dataset 분석
- * 와인 품질 예측 모델 만들기
- * 데이터 출처 : https://www.kaggle.com/datasets/yasserh/wine-quality-dataset?select=WineQT.csv
- 
- * 데이터 분석 코드
-   * [github 코드](https://github.com/LDJWJ/dataAnalysis/blob/main/01_06_WindQT_DataAnalysis.ipynb)
-   * [HTML코드](https://ldjwj.github.io/dataAnalysis/01_06_WindQT_DataAnalysis.html)
- * 추가 분석 1편 - 교차검증 + Pipeline : split 1회 vs StratifiedKFold, 모델 비교, GridSearchCV, 3등급 분류, 변수 중요도
-   * [github 코드 - 추가 분석 1편](https://github.com/LDJWJ/dataAnalysis/blob/main/01_06B_WineQT_CrossValidation_Pipeline.ipynb)
-   * [HTML코드 - 추가 분석 1편](https://ldjwj.github.io/dataAnalysis/01_06B_WineQT_CrossValidation_Pipeline.html)
- * [처음목록으로 가기](#데이터-알아가기-실전-실습)
+| No | 프로젝트명 | 도메인 | 분석 기법 / 주요 모델 | 데이터 출처 | 기본 분석 링크 | 심화 추가 분석 링크 |
+|:---:|:---|:---:|:---|:---:|:---:|:---:|
+| **01** | **데이터 과학자 연봉 분석 (2023)** | 취업·연봉 | 직무별/국가별 급여 통계, 시각화 | [Kaggle](https://www.kaggle.com/datasets/arnabchaki/data-science-salaries-2023) | [💻 GitHub](https://github.com/LDJWJ/dataAnalysis/blob/main/01_19_DataScienceSalaries_Analysis_2305.ipynb) · [🌐 HTML](https://ldjwj.github.io/dataAnalysis/01_19_DataScienceSalaries_Analysis_2305.html) | — |
+| **02** | **캘리포니아 주택 가격 분석** | 부동산 | 지리 시각화, 회귀 모델링 | Colab Sample | [💻 GitHub](https://github.com/LDJWJ/dataAnalysis/blob/main/01_01_california.ipynb) · [🌐 HTML](https://ldjwj.github.io/dataAnalysis/01_01_california.html) | [🌐 1편: 집값 지도](https://ldjwj.github.io/dataAnalysis/01_01B_california_Price_Map.html) · [🌐 2편: 특성 모델](https://ldjwj.github.io/dataAnalysis/01_01C_california_Feature_Models.html) |
+| **03** | **캐글 코리아 4차 성인 소득 예측** | 소득·분류 | 특성공학, One-Hot, LightGBM | [Kaggle](https://www.kaggle.com/c/kakr-4th-competition) | [🌐 상위 솔루션 분석](https://ldjwj.github.io/ML_Basic_Class/part03_ml/part03_pro_kaggle/kaggle_contest_4th_05_1st_review.html) | — |
+| **04** | **뇌졸중(Stroke) 발병 예측** | 의료 | 불균형 데이터, 로지스틱/트리 | [Kaggle](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset) | [💻 GitHub](https://github.com/LDJWJ/dataAnalysis/blob/main/01_02_Stroke_Prediction_Analysis_01.ipynb) · [🌐 HTML](https://ldjwj.github.io/dataAnalysis/01_02_Stroke_Prediction_Analysis_01.html) | [🌐 1편: 정확도 함정](https://ldjwj.github.io/dataAnalysis/01_02B_Stroke_Accuracy_Trap.html) |
+| **05** | **은행 파산 위기 예측** | 금융 | 리스크 분류 모델링, 특성 변환 | [Kaggle](https://www.kaggle.com/competitions/bankruptcy-risk-prediction) | [💻 GitHub](https://github.com/LDJWJ/dataAnalysis/blob/main/01_03_Bankruptcy_Risk_Prediction02.ipynb) · [🌐 HTML](https://ldjwj.github.io/dataAnalysis/01_03_Bankruptcy_Risk_Prediction04_withkaggle_V10.html) | [📄 PDF 보고서](https://ldjwj.github.io/dataAnalysis/01_03_Bankruptcy_Risk_Prediction04_withkaggle_V10.pdf) |
+| **06** | **Spaceship Titanic 예측** | 우주·분류 | 결측치 대체, 라벨 인코딩, 앙상블 | [Kaggle](https://www.kaggle.com/competitions/spaceship-titanic/data) | [🌐 HTML](https://ldjwj.github.io/dataAnalysis/01_04A_Spaceship_Titanic.html) · [📄 PDF](https://ldjwj.github.io/dataAnalysis/01_04A_Spaceship_Titanic.PDF) | — |
+| **07** | **기상청 태풍 이동 속도 예측** | 기상 | 시계열 기상 관측 회귀 모델 | [기상청](https://data.kma.go.kr/data/weatherIssue/typList.do?pgmNo=724) | [💻 GitHub](https://github.com/LDJWJ/dataAnalysis/blob/main/01_05_Typhoon_analysis.ipynb) · [🌐 HTML](https://ldjwj.github.io/dataAnalysis/01_05_Typhoon_analysis.html) | — |
+| **08** | **와인 품질(Wine Quality) 판별** | 식품·화학 | 다중 분류, 상관관계 분석 | [Kaggle](https://www.kaggle.com/datasets/yasserh/wine-quality-dataset?select=WineQT.csv) | [💻 GitHub](https://github.com/LDJWJ/dataAnalysis/blob/main/01_06_WindQT_DataAnalysis.ipynb) · [🌐 HTML](https://ldjwj.github.io/dataAnalysis/01_06_WindQT_DataAnalysis.html) | [🌐 1편: 교차검증 & 파이프라인](https://ldjwj.github.io/dataAnalysis/01_06B_WineQT_CrossVal_Pipeline.html) |
+| **09** | **수면 센서 기반 인간 스트레스 감지** | 헬스케어 | 다중 센서 분류 (SaYoPillow) | [Kaggle](https://www.kaggle.com/datasets/laavanya/human-stress-detection-in-and-through-sleep?select=SaYoPillow.csv) | [💻 GitHub](https://github.com/LDJWJ/dataAnalysis/blob/main/01_07_Human_Stress_Detection.ipynb) · [🌐 HTML](https://ldjwj.github.io/dataAnalysis/01_07_Human_Stress_Detection.html) | [🌐 1편: 상관관계 & 결정트리](https://ldjwj.github.io/dataAnalysis/01_07B_Human_Stress_Correlation_Tree.html) |
+| **10** | **브라질 증시(ibovespa) 주가 예측** | 증권·시계열 | 시계열 분석 & Meta Prophet | [Kaggle](https://www.kaggle.com/datasets/felsal/ibovespa-stocks) | [💻 GitHub](https://github.com/LDJWJ/dataAnalysis/blob/main/01_08_ivospa_stock.ipynb) · [🌐 HTML Prophet](https://ldjwj.github.io/dataAnalysis/01_08B_ivospa_stock_Prophet.html) | [🌐 1편: 금리·환율과 주가](https://ldjwj.github.io/dataAnalysis/01_08D_ibovespa_Rates_FX_Stock.html) |
+| **11** | **남성 신체 치수 기반 체지방률 예측** | 건강·피트니스 | 다중 선형회귀, 다중공선성 진단 | [Kaggle](https://www.kaggle.com/datasets/fedesoriano/body-fat-prediction-dataset) | [💻 GitHub](https://github.com/LDJWJ/dataAnalysis/blob/main/01_09_bodyFatPredict.ipynb) · [🌐 HTML](https://ldjwj.github.io/dataAnalysis/01_09_bodyFatPredict.html) | [🌐 1편: 줄자 기반 단순 모델](https://ldjwj.github.io/dataAnalysis/01_09B_bodyFat_Simple_Tape_Model.html) |
+| **12** | **CDC 40만 성인 심장병 핵심 지표** | 의료·역학 | 대용량 설문 데이터 이진 분류 | [Kaggle](https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-disease) | [💻 GitHub](https://github.com/LDJWJ/dataAnalysis/blob/main/01_10_Heart_Disease.ipynb) · [🌐 HTML](https://ldjwj.github.io/dataAnalysis/01_10_Heart_Disease.html) | [🌐 1편: 임계값 조정](https://ldjwj.github.io/dataAnalysis/01_10B_Heart_Disease_Accuracy_Trap_Modeling.html) · [🌐 2편: 오즈비 순위](https://ldjwj.github.io/dataAnalysis/01_10C_Heart_Disease_Risk_Factors.html) |
+| **13** | **MCU 마블 영화 박스오피스 흥행 분석** | 엔터테인먼트 | 전세계 흥행 수익 비교, 시각화 | [Kaggle](https://www.kaggle.com/datasets/mayureshkoli/mcu-worldwide-box-office-collection) | [💻 GitHub 모델](https://github.com/LDJWJ/dataAnalysis/blob/main/01_11_MCU_MOVIE_INFO.ipynb) · [🌐 HTML EDA](https://ldjwj.github.io/dataAnalysis/01_11_MCU_MOVIE_INFO_02.html) | [🌐 1편: 지역별 패턴 & 수익률](https://ldjwj.github.io/dataAnalysis/01_11B_MCU_Regional_Box_Office_Patterns.html) |
+| **14** | **인구 통계 및 국가 기반시설 분석** | 공공·인구 | 장기 인구변화 & 2030 출생아 예측 | KOSIS / 국토부 | [🌐 HTML EDA](https://ldjwj.github.io/dataAnalysis/01_12_Population_Analysis01_EDA.html) · [📄 PDF](https://ldjwj.github.io/dataAnalysis/01_12_Population_Analysis01_EDA.pdf) | [🌐 2030년 출생자수 예측](https://ldjwj.github.io/dataAnalysis/01_12_Population_Analysis02.html) |
+| **15** | **문화 예술인 및 단체 현황 분석** | 문화·통계 | 예술기획업 등록 추이 및 아카이브 | 한국콘텐츠진흥원 | [🌐 HTML EDA](https://ldjwj.github.io/dataAnalysis/01_14_Artist_Kor_analysis01_EDA.html) | — |
+| **16** | **행정안전부 주민등록 인구통계** | 공공·통계 | 연령대별/지역별 인구 분포 분석 | 행정안전부 | [🌐 HTML](https://ldjwj.github.io/dataAnalysis/01_15_Population_Data.html) | [🌐 1편: 수도권 집중 & 성비](https://ldjwj.github.io/dataAnalysis/01_15B_Population_Data_Analysis.html) |
+| **17** | **콘크리트 표면 균열 검출 (CV)** | 건축·비전 | 2만 장 이미지 데이터셋 균열 검출 | [Kaggle](https://www.kaggle.com/datasets/arunrk7/surface-crack-detection) | 준비 중 | — |
 
-## 08 Human Stress Detection in and through Sleep 데이터 분석
- * 수면의 인간의 스트레스 감지 
- * 데이터 출처 : https://www.kaggle.com/datasets/laavanya/human-stress-detection-in-and-through-sleep?select=SaYoPillow.csv
- 
- * 데이터 분석 코드
-   * [github 코드](https://github.com/LDJWJ/dataAnalysis/blob/main/01_07_Human_Stress_Detection.ipynb)
-   * [HTML코드](https://ldjwj.github.io/dataAnalysis/01_07_Human_Stress_Detection.html)
- * 추가 분석 1편 - 너무 좋은 성능(100%) 의심하기 : 상관관계·단일 변수 모델·구간 겹침·합성 데이터 흔적·교차검증 점검
-   * [github 코드 - 추가 분석 1편](https://github.com/LDJWJ/dataAnalysis/blob/main/01_07B_Human_Stress_Too_Good_Performance.ipynb)
-   * [HTML코드 - 추가 분석 1편](https://ldjwj.github.io/dataAnalysis/01_07B_Human_Stress_Too_Good_Performance.html)
- * [처음목록으로 가기](#데이터-알아가기-실전-실습)
+---
 
-## 09 ibovespa-stocks 브라질 주식 데이터 분석
- * [경제-주식]
- * 브라질 증권 거래소의 주식 - Stocks from the Brazilian stock exchange
- * 데이터 출처 : https://www.kaggle.com/datasets/felsal/ibovespa-stocks
- 
- * 데이터 분석 코드
-   * [github 코드](https://github.com/LDJWJ/dataAnalysis/blob/main/01_08_ivospa_stock.ipynb)
-   * [HTML코드](https://ldjwj.github.io/dataAnalysis/01_08_ivospa_stock.html)
+## 💰 1. 비즈니스 · 금융 · 경제 도메인
 
- * 데이터 분석 코드 - Prophet를 활용 
-   * [github 코드](https://github.com/LDJWJ/dataAnalysis/blob/main/01_08B_ivospa_stock_Prophet.ipynb), [PDF 코드](https://ldjwj.github.io/dataAnalysis/01_08B_ivospa_stock_Prophet.pdf), [HTML 코드](https://ldjwj.github.io/dataAnalysis/01_08B_ivospa_stock_Prophet.html)
-   
- * 추가 분석 - 금리·환율과 주가 (대용 시장 지수, 상관·시차 상관, 위기 구간 변동성, 정답 누수 점검)
-   * [github 코드 - 추가 분석](https://github.com/LDJWJ/dataAnalysis/blob/main/01_08D_ibovespa_Rates_FX_Stock.ipynb)
-   * [HTML코드 - 추가 분석](https://ldjwj.github.io/dataAnalysis/01_08D_ibovespa_Rates_FX_Stock.html)
- * [처음목록으로 가기](#데이터-알아가기-실전-실습)
- 
-## 10 Body Fat Prediction Dataset 데이터 분석
- * [생활-건강]
- * Body fat estimates and various body circumference measurements for 252 men
- * 252명의 남성에 대한 체지방 추정 및 다양한 신체 둘레 측정
- * 데이터 출처 : https://www.kaggle.com/datasets/fedesoriano/body-fat-prediction-dataset
- 
- * 데이터 분석 코드
-   * [github 코드](https://github.com/LDJWJ/dataAnalysis/blob/main/01_09_bodyFatPredict.ipynb)
-   * [HTML코드](https://ldjwj.github.io/dataAnalysis/01_09_bodyFatPredict.html)
+* **Data Science Salaries 2023 (데이터 과학자 연봉)**:
+  * 2023년 데이터 사이언티스트, 엔지니어, 애널리스트의 전세계 직무별·경력별·회사 규모별 연봉 비교 분석.
+  * [💻 GitHub 코드](https://github.com/LDJWJ/dataAnalysis/blob/main/01_19_DataScienceSalaries_Analysis_2305.ipynb) · [🌐 HTML 리포트](https://ldjwj.github.io/dataAnalysis/01_19_DataScienceSalaries_Analysis_2305.html)
+* **은행 파산 위기 예측 (Bankruptcy Risk Prediction)**:
+  * 재무 비율 데이터를 바탕으로 기업/개인의 파산 위험성을 사전 예측하는 리스크 관리 모델.
+  * [🌐 HTML 기초](https://ldjwj.github.io/dataAnalysis/01_03_Bankruptcy_Risk_Prediction01_v10_220518.html) · [🌐 HTML 모델링](https://ldjwj.github.io/dataAnalysis/01_03_Bankruptcy_Risk_Prediction04_withkaggle_V10.html) · [📄 PDF](https://ldjwj.github.io/dataAnalysis/01_03_Bankruptcy_Risk_Prediction04_withkaggle_V10.pdf)
+* **브라질 주식 거래소(ibovespa) 시계열 분석 & Prophet 예측**:
+  * 주가 추세, 이동평균선 탐색 및 Meta Prophet 미래 주가 예측.
+  * [💻 GitHub 기본](https://github.com/LDJWJ/dataAnalysis/blob/main/01_08_ivospa_stock.ipynb) · [🌐 HTML Prophet](https://ldjwj.github.io/dataAnalysis/01_08B_ivospa_stock_Prophet.html)
+  * **[추가 분석]** 금리·환율과 주가 상관/시차 상관 및 정답 누수 점검: [🌐 HTML 추가분석](https://ldjwj.github.io/dataAnalysis/01_08D_ibovespa_Rates_FX_Stock.html)
 
- * 추가 분석 1편 - 줄자로 잴 수 있는 변수만으로 체지방 예측 (Density 누수 확인, 이상치 처리, 변수 1~3개 조합 교차검증, 간단한 계산식)
-   * [github 코드 - 추가 분석 1편](https://github.com/LDJWJ/dataAnalysis/blob/main/01_09B_bodyFat_Simple_Tape_Model.ipynb)
-   * [HTML코드 - 추가 분석 1편](https://ldjwj.github.io/dataAnalysis/01_09B_bodyFat_Simple_Tape_Model.html)
- * [처음목록으로 가기](#데이터-알아가기-실전-실습)
+---
 
-## 11 Personal Key Indicators of Heart Disease 데이터 분석
- * [의료-심장병]
- * 건강 상태와 관련된 40만 명의 성인을 대상으로 한 2020년 연간 CDC 설문 조사 데이터
- * 데이터 출처 : https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-disease
- 
- * 데이터 분석 코드
-   * [github 코드](https://github.com/LDJWJ/dataAnalysis/blob/main/01_10_Heart_Disease.ipynb)
-   * [HTML코드](https://ldjwj.github.io/dataAnalysis/01_10_Heart_Disease.html)
-   
- * 추가 분석 1편 - 정확도의 함정 ② : 기준선 비교, 오차행렬, 재현율/F1/ROC-AUC, class_weight와 임계값 조정
-   * [github 코드 - 추가 분석 1편](https://github.com/LDJWJ/dataAnalysis/blob/main/01_10B_Heart_Disease_Accuracy_Trap_Modeling.ipynb)
-   * [HTML코드 - 추가 분석 1편](https://ldjwj.github.io/dataAnalysis/01_10B_Heart_Disease_Accuracy_Trap_Modeling.html)
- * 추가 분석 2편 - 심장병 위험 요인 분석(연령·건강 자가평가·질병 이력·생활 습관)과 로지스틱 회귀 오즈비 순위 (plotly)
-   * [github 코드 - 추가 분석 2편](https://github.com/LDJWJ/dataAnalysis/blob/main/01_10C_Heart_Disease_Risk_Factors.ipynb)
-   * [HTML코드 - 추가 분석 2편](https://ldjwj.github.io/dataAnalysis/01_10C_Heart_Disease_Risk_Factors.html)
- * [처음목록으로 가기](#데이터-알아가기-실전-실습)
- 
-## 12 MCU Worldwide Box Office Collection 데이터 분석
- * [생활-영화] Marvel Cinematic Universe 전세계 박스 오피스 컬렉션 데이터 세트
- * ---
- * 데이터 출처 : https://www.kaggle.com/datasets/mayureshkoli/mcu-worldwide-box-office-collection
- 
- * 데이터 분석 코드
-   * [github 코드-기본모델](https://github.com/LDJWJ/dataAnalysis/blob/main/01_11_MCU_MOVIE_INFO.ipynb)
-   * [HTML코드-기본모델](https://ldjwj.github.io/dataAnalysis/01_11_MCU_MOVIE_INFO.html)
-   * [github 코드-데이터탐색](https://github.com/LDJWJ/dataAnalysis/blob/main/01_11_MCU_MOVIE_INFO_02.ipynb)
-   * [HTML코드-데이터탐색](https://ldjwj.github.io/dataAnalysis/01_11_MCU_MOVIE_INFO_02.html)
+## 🏥 2. 의료 · 헬스케어 도메인
 
- * 추가 분석 1편 - 회귀 과적합 확인, 지역·국가별 흥행 비중 변화와 예산 대비 수익(plotly)
-   * [github 코드 - 추가 분석 1편](https://github.com/LDJWJ/dataAnalysis/blob/main/01_11B_MCU_Regional_Box_Office_Patterns.ipynb)
-   * [HTML코드 - 추가 분석 1편](https://ldjwj.github.io/dataAnalysis/01_11B_MCU_Regional_Box_Office_Patterns.html)
- * [처음목록으로 가기](#데이터-알아가기-실전-실습)
+* **뇌졸중(Stroke) 발병 예측**:
+  * 나이, 고혈압, 심장질환 여부, 흡연 상태 등 라이프스타일 변수를 바탕으로 뇌졸중 발병 확률 분류.
+  * [💻 GitHub 코드](https://github.com/LDJWJ/dataAnalysis/blob/main/01_02_Stroke_Prediction_Analysis_01.ipynb) · [🌐 HTML 기본](https://ldjwj.github.io/dataAnalysis/01_02_Stroke_Prediction_Analysis_01.html)
+  * **[추가 분석]** 정확도의 함정 ① - 불균형 데이터 오차행렬, ROC-AUC, 임계값 탐색: [🌐 HTML 추가분석](https://ldjwj.github.io/dataAnalysis/01_02B_Stroke_Accuracy_Trap.html)
+* **수면 중 인간 스트레스 감지 (SaYoPillow)**:
+  * 수면 자세, 체온, 심박수 센서 데이터를 결합하여 스트레스 수준을 자동 판별.
+  * [💻 GitHub 기본](https://github.com/LDJWJ/dataAnalysis/blob/main/01_07_Human_Stress_Detection.ipynb) · [🌐 HTML 기본](https://ldjwj.github.io/dataAnalysis/01_07_Human_Stress_Detection.html)
+  * **[추가 분석]** 상관계수 히트맵 및 결정트리 기반 주요 변수 중요도 분석: [🌐 HTML 추가분석](https://ldjwj.github.io/dataAnalysis/01_07B_Human_Stress_Correlation_Tree.html)
+* **CDC 심장병 주요 지표 분석 (Personal Key Indicators)**:
+  * 40만 명의 방대한 미국 CDC 성인 설문조사 데이터를 활용한 고위험군 탐색.
+  * [💻 GitHub 기본](https://github.com/LDJWJ/dataAnalysis/blob/main/01_10_Heart_Disease.ipynb) · [🌐 HTML 기본](https://ldjwj.github.io/dataAnalysis/01_10_Heart_Disease.html)
+  * **[추가 분석 1편]** 정확도의 함정 ② - class_weight 및 임계값 최적화: [🌐 HTML 1편](https://ldjwj.github.io/dataAnalysis/01_10B_Heart_Disease_Accuracy_Trap_Modeling.html)
+  * **[추가 분석 2편]** 위험 요인 분석과 로지스틱 회귀 오즈비(Odds Ratio) 순위 (Plotly): [🌐 HTML 2편](https://ldjwj.github.io/dataAnalysis/01_10C_Heart_Disease_Risk_Factors.html)
+* **체지방률(Body Fat) 예측**:
+  * 252명의 남성 신체 둘레 측정치를 바탕으로 정밀 체지방률을 도출하는 다중 회귀 모델링.
+  * [💻 GitHub 기본](https://github.com/LDJWJ/dataAnalysis/blob/main/01_09_bodyFatPredict.ipynb) · [🌐 HTML 기본](https://ldjwj.github.io/dataAnalysis/01_09_bodyFatPredict.html)
+  * **[추가 분석 1편]** 줄자로 잴 수 있는 1~3개 변수 조합 교차검증 단순 계산식 도출: [🌐 HTML 1편](https://ldjwj.github.io/dataAnalysis/01_09B_bodyFat_Simple_Tape_Model.html)
 
-## 13 인구 예측 및 국가 기반 시설 데이터 분석
- * [생활-통계, 건설] 
- * 데이터 출처
-    * 2022_도로_교량_및_터널현황조사 [Link](https://bti.kict.re.kr/bti/publicMain/main.do)
-    * 출생아수 통계 [Link](https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=INH_1B8000F_01&vw_cd=MT_ZTITLE&list_id=A21&seqNo=&lang_mode=ko&language=kor&obj_var_id=&itm_id=&conn_path=MT_ZTITLE)
+---
 
- * 데이터 내용 
-  ![데이터 내용 캡쳐 이미지](https://github.com/LDJWJ/dataAnalysis/blob/main/img/population_no14.png)
-    * 1970년부터 2021년까지 인구 통계 데이터
-    
-  * 도로교량,터널 등 기반시설 통계 - 위의 통계 자료를 토대로 정리된 데이터 셋 내용  
-  ![데이터 내용 캡쳐 이미지](https://github.com/LDJWJ/dataAnalysis/blob/main/img/population_no14_02.png)
-    * 1926년부터 2021년까지 년도별 교량, 터널, 지하차도 완공수(필요인력은 하나의 건설물당 4명씩으로 계산)
-    
- * 데이터 분석 코드 - 데이터 탐색 및 시각화
-   * [HTML코드](https://ldjwj.github.io/dataAnalysis/01_12_Population_Analysis01_EDA.html)
-   * [pdf](https://ldjwj.github.io/dataAnalysis/01_12_Population_Analysis01_EDA.pdf)
-   
- * 데이터 분석 코드 - 2030년 출생자수 예측해 보기
-   * [HTML코드](https://ldjwj.github.io/dataAnalysis/01_12_Population_Analysis02.html)
-   * [pdf](https://ldjwj.github.io/dataAnalysis/01_12_Population_Analysis01_EDA.pdf)
+## 🏙️ 3. 부동산 · 공공 · 환경 도메인
 
- * [처음목록으로 가기](#데이터-알아가기-실전-실습)
+* **캘리포니아 주택 가격 회귀 분석**:
+  * 소득 수준, 해안가 접근성, 가구당 방 개수를 반영한 집값 예측 표준 벤치마크.
+  * [💻 GitHub 기본](https://github.com/LDJWJ/dataAnalysis/blob/main/01_01_california.ipynb) · [🌐 HTML 기본](https://ldjwj.github.io/dataAnalysis/01_01_california.html)
+  * **[추가 분석 1편]** 위경도 기반 캘리포니아 집값 지리 지도 시각화: [🌐 HTML 1편](https://ldjwj.github.io/dataAnalysis/01_01B_california_Price_Map.html)
+  * **[추가 분석 2편]** 특성 선택 및 다중 회귀 모델 비교: [🌐 HTML 2편](https://ldjwj.github.io/dataAnalysis/01_01C_california_Feature_Models.html)
+* **대한민국 인구 통계 & 국가 기반시설(도로/교량) 분석**:
+  * 1970~2021년 장기 인구 데이터와 1926~2021년 완공된 교량/터널 통계를 결합하여 **2030년 출생아 수 전망 모델** 수립.
+  <p align="center">
+    <img src="https://github.com/LDJWJ/dataAnalysis/blob/main/img/population_no14.png" width="45%" alt="인구 통계"/>
+    <img src="https://github.com/LDJWJ/dataAnalysis/blob/main/img/population_no14_02.png" width="45%" alt="기반시설 통계"/>
+  </p>
+  * [🌐 HTML 탐색(EDA)](https://ldjwj.github.io/dataAnalysis/01_12_Population_Analysis01_EDA.html) · [🌐 HTML 2030예측](https://ldjwj.github.io/dataAnalysis/01_12_Population_Analysis02.html) · [📄 PDF](https://ldjwj.github.io/dataAnalysis/01_12_Population_Analysis01_EDA.pdf)
+* **행정안전부 주민등록 인구통계**:
+  * 2023년 10월 행정구역별 주민등록 인구 (총인구, 세대수, 성별) 분석.
+  <p align="center">
+    <img src="https://github.com/LDJWJ/dataAnalysis/blob/main/img/data15_pop2.png?raw=true" width="60%" alt="주민등록 인구"/>
+  </p>
+  * [🌐 HTML 기본](https://ldjwj.github.io/dataAnalysis/01_15_Population_Data.html)
+  * **[추가 분석 1편]** 수도권 집중도, 시도별 인구 순위, 성비·세대당 인구 Plotly 트리맵: [🌐 HTML 1편](https://ldjwj.github.io/dataAnalysis/01_15B_Population_Data_Analysis.html)
+* **문화 예술인 및 단체 현황 분석**:
+  * 대중문화예술기획업 등록 현황 및 디지털 아카이브 데이터 탐색.
+  <p align="center">
+    <img src="https://github.com/LDJWJ/dataAnalysis/blob/main/img/artist_no14.png" width="60%" alt="예술인 데이터"/>
+  </p>
+  * [🌐 HTML 리포트](https://ldjwj.github.io/dataAnalysis/01_14_Artist_Kor_analysis01_EDA.html)
+* **기상청 태풍 이동 속도 예측**:
+  * 기상청 과거 태풍 경로 및 중심 기압 데이터를 활용한 이동 속도 예측.
+  * [💻 GitHub 코드](https://github.com/LDJWJ/dataAnalysis/blob/main/01_05_Typhoon_analysis.ipynb) · [🌐 HTML 리포트](https://ldjwj.github.io/dataAnalysis/01_05_Typhoon_analysis.html)
 
-## 14 문화 예술인 데이터 셋 현황 분석
- * [생활-통계] 
- * 데이터 분석 코드 - 예술인 데이터 셋에 대한 기본 데이터 탐색
-   * [HTML코드](https://ldjwj.github.io/dataAnalysis/01_14_Artist_Kor_analysis01_EDA.html)
-   
- * 데이터 출처
-   * 대중문화예술기획업 월별 등록현황 ~2022까지 현황(PDF)  [이동하기](https://ent.kocca.kr/cop/bbs/selectBoardList.do)
-   * 예술디지털 아카이브에 등록된 예술단체 및 예술인 현황 [이동하기](https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=3076e909-db81-4e46-b2e5-f233e5613e97) 
- * 데이터 내용
-  ![데이터 내용 캡쳐 이미지](https://github.com/LDJWJ/dataAnalysis/blob/main/img/artist_no14.png)
-    * 2023년 10월 행정구역별 주민등록 인구 (총인구, 세대수, 남자, 여자)
+---
 
- * [처음목록으로 가기](#데이터-알아가기-실전-실습)
+## 🎬 4. 엔터테인먼트 · 라이프 · 인공지능
 
+* **MCU 마블 영화 전세계 박스오피스 흥행 분석**:
+  * 아이언맨부터 최신 마블 영화들의 제작비, 전세계 오프닝 및 누적 박스오피스 수익 비교 분석.
+  * [💻 GitHub 모델](https://github.com/LDJWJ/dataAnalysis/blob/main/01_11_MCU_MOVIE_INFO.ipynb) · [🌐 HTML EDA](https://ldjwj.github.io/dataAnalysis/01_11_MCU_MOVIE_INFO_02.html)
+  * **[추가 분석 1편]** 회귀 과적합 진단, 지역별 흥행 비중 및 예산 대비 수익률(ROI) Plotly 시각화: [🌐 HTML 1편](https://ldjwj.github.io/dataAnalysis/01_11B_MCU_Regional_Box_Office_Patterns.html)
+* **와인 품질(Wine Quality) 판별**:
+  * 산도, 알코올 도수, 잔당 등 물리화학적 특성 11가지를 조합한 와인 퀄리티 분류.
+  * [💻 GitHub 기본](https://github.com/LDJWJ/dataAnalysis/blob/main/01_06_WindQT_DataAnalysis.ipynb) · [🌐 HTML 기본](https://ldjwj.github.io/dataAnalysis/01_06_WindQT_DataAnalysis.html)
+  * **[추가 분석 1편]** k-fold 교차검증과 Scikit-learn Pipeline 모델 최적화: [🌐 HTML 1편](https://ldjwj.github.io/dataAnalysis/01_06B_WineQT_CrossVal_Pipeline.html)
+* **우주선 타이타닉 (Spaceship Titanic) 승객 차원 이동 예측**:
+  * 결측치 보정, 파생 변수 엔지니어링을 통한 캐글 컴피티션 실전 모델링.
+  * [🌐 HTML 리포트](https://ldjwj.github.io/dataAnalysis/01_04A_Spaceship_Titanic.html) · [📄 PDF](https://ldjwj.github.io/dataAnalysis/01_04A_Spaceship_Titanic.PDF)
 
-## 15 공공 데이터 분석
- * [생활-통계] 
- * 데이터 분석 코드 - 주민등록 인구 데이터에 대한 기본 데이터 탐색
-   * [HTML코드](https://ldjwj.github.io/dataAnalysis/01_15_Population_Data.html)
-   
- * 데이터 출처 : https://www.mois.go.kr/, 정책 자료 - 통계 - 주민등록 인구통계
- * 데이터 내용
-  ![데이터 내용 캡쳐 이미지](https://github.com/LDJWJ/dataAnalysis/blob/main/img/data15_pop2.png?raw=true)
-    * 2023년 10월 행정구역별 주민등록 인구 (총인구, 세대수, 남자, 여자)
- * 추가 분석 1편 - 시도·시군구 인구 순위, 수도권 집중, 성비·세대당 인구 비교 (plotly 트리맵·산점도)
-   * [github 코드 - 추가 분석 1편](https://github.com/LDJWJ/dataAnalysis/blob/main/01_15B_Population_Data_Analysis.ipynb)
-   * [HTML코드 - 추가 분석 1편](https://ldjwj.github.io/dataAnalysis/01_15B_Population_Data_Analysis.html)
- * [처음목록으로 가기](#데이터-알아가기-실전-실습)
+---
 
-## 16 표면 균열 검출
- * [건축]
- * Concrete surface sample images for Surface Crack Detection
- * 2만여장의 이미지 데이터. 표면의 균열을 예측한다.
- * 데이터 출처 : https://www.kaggle.com/datasets/arunrk7/surface-crack-detection
- 
- * 데이터 분석 코드
-   * [github 코드]
-   * [HTML코드]   
- 
- * [처음목록으로 가기](#데이터-알아가기-실전-실습)
+## 🔗 라이선스 및 문의
+
+* **문의 사항**: 데이터 분석 협업 및 제휴 문의: [frontier1020@naver.com](mailto:frontier1020@naver.com)
+* **라이선스**: 본 저장소의 모든 자료는 [CC BY-NC 4.0](LICENSE) 라이선스를 따릅니다. 출처를 표시하면 비영리 목적으로 자유롭게 활용하실 수 있습니다.
