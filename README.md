@@ -144,6 +144,9 @@
  * 데이터 분석 코드 - Prophet를 활용 
    * [github 코드](https://github.com/LDJWJ/dataAnalysis/blob/main/01_08B_ivospa_stock_Prophet.ipynb), [PDF 코드](https://ldjwj.github.io/dataAnalysis/01_08B_ivospa_stock_Prophet.pdf), [HTML 코드](https://ldjwj.github.io/dataAnalysis/01_08B_ivospa_stock_Prophet.html)
    
+ * 추가 분석 - 금리·환율과 주가 (대용 시장 지수, 상관·시차 상관, 위기 구간 변동성, 정답 누수 점검)
+   * [github 코드 - 추가 분석](https://github.com/LDJWJ/dataAnalysis/blob/main/01_08D_ibovespa_Rates_FX_Stock.ipynb)
+   * [HTML코드 - 추가 분석](https://ldjwj.github.io/dataAnalysis/01_08D_ibovespa_Rates_FX_Stock.html)
  * [처음목록으로 가기](#데이터-알아가기-실전-실습)
  
 ## 10 Body Fat Prediction Dataset 데이터 분석
