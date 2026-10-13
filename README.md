@@ -3,19 +3,19 @@
  * 02 캐글 코리아 4차 대회 [이동](#02-캐글-코리아-4차-대회)
  * 03 뇌졸중 예측 데이터 분석 [이동](#03-뇌졸중-예측-데이터-분석)
  * 04 은행파산 위기 데이터 분석 [이동](#04-은행파산-위기-데이터-분석)
- * 05 Spaceship Titanic 데이터 분석 [이동](#05-Spaceship-Titanic-데이터-분석)
+ * 05 Spaceship Titanic 데이터 분석 [이동](#05-spaceship-titanic-데이터-분석)
  * 06 태풍 데이터 셋 데이터 분석  [이동](#06-태풍-데이터-셋-데이터-분석)
  * 07 Wine Quality Dataset 분석  [이동](#07-wine-quality-dataset-분석)
- * 08 Human Stress Detection in and through Sleep 데이터 분석  [이동](#08-Human-Stress-Detection-in-and-through-Sleep-데이터-분석)
+ * 08 Human Stress Detection in and through Sleep 데이터 분석  [이동](#08-human-stress-detection-in-and-through-sleep-데이터-분석)
  * 09 ibovespa-stocks 브라질 주식 데이터 분석 [이동](#09-ibovespa-stocks-브라질-주식-데이터-분석)
- * 10 Body Fat Prediction Dataset 데이터 분석 [이동](#10-Body-Fat-Prediction-Dataset-데이터-분석)
- * 11 Personal Key Indicators of Heart Disease 데이터 분석  [이동](#11-Personal-Key-Indicators-of-Heart-Disease-데이터-분석)
- * 12 MCU Worldwide Box Office Collection 데이터 분석   [이동](#12-MCU-Worldwide-Box-Office-Collection-데이터-분석)
+ * 10 Body Fat Prediction Dataset 데이터 분석 [이동](#10-body-fat-prediction-dataset-데이터-분석)
+ * 11 Personal Key Indicators of Heart Disease 데이터 분석  [이동](#11-personal-key-indicators-of-heart-disease-데이터-분석)
+ * 12 MCU Worldwide Box Office Collection 데이터 분석   [이동](#12-mcu-worldwide-box-office-collection-데이터-분석)
  * 13 인구 예측 및 국가 기반 시설 데이터 분석 [이동](#13-인구-예측-및-국가-기반-시설-데이터-분석)
  * 14 문화 예술인 데이터 셋 현황 분석 [이동](#14-문화-예술인-데이터-셋-현황-분석)
- * 15 표면 균열 검출 [이동-준비중](#14-표면-균열-검출)
- * 15 표면 균열 검출 [이동-준비중](#14-표면-균열-검출)
- * [16 Data Science Salaries 2023 데이터 분석] [이동](#Data-Science-Salaries-2023-데이터-분석)
+ * 15 공공 데이터 분석 [이동](#15-공공-데이터-분석)
+ * 16 표면 균열 검출 [이동-준비중](#16-표면-균열-검출)
+ * [16 Data Science Salaries 2023 데이터 분석] [이동](#data-science-salaries-2023-데이터-분석)
 
 
 ## Data Science Salaries 2023 데이터 분석
@@ -89,14 +89,14 @@
  * 데이터 출처 : https://www.kaggle.com/competitions/spaceship-titanic/data
  
  * 데이터 기본 탐색 및 첫 모델 만들기
-   * [PDF 코드](https://ldjwj.github.io/dataAnalysis/01_04A_Spaceship_Titanic.PDF)
-   * [HTML 코드](https://ldjwj.github.io/dataAnalysis/01_04A_Spaceship_Titanic.html)
+   * [PDF 코드](https://ldjwj.github.io/dataAnalysis/01_04A_Spaceship_Titanic_2209.pdf)
+   * [HTML 코드](https://ldjwj.github.io/dataAnalysis/01_04A_Spaceship_Titanic_2209.html)
 
  * 데이터 처리 및 모델링(결측치 처리/라벨인코딩 등)
  * [처음목록으로 가기](#데이터-알아가기-실전-실습)
 
 
-## 06 태풍 데이터 셋 데이터 분석 
+## 06 태풍 데이터 셋 데이터 분석
  * 태풍 데이터 이동 속도 예측 모델 만들기
  * 데이터 출처 : https://data.kma.go.kr/data/weatherIssue/typList.do?pgmNo=724
  
@@ -133,7 +133,7 @@
    * [HTML코드](https://ldjwj.github.io/dataAnalysis/01_08_ivospa_stock.html)
 
  * 데이터 분석 코드 - Prophet를 활용 
-   * [github 코드](https://ldjwj.github.io/dataAnalysis/01_08B_ivospa_stock_Prophet.ipynb), [PDF 코드](https://ldjwj.github.io/dataAnalysis/01_08B_ivospa_stock_Prophet.pdf), [HTML 코드](https://ldjwj.github.io/dataAnalysis/01_08B_ivospa_stock_Prophet.html)
+   * [github 코드](https://github.com/LDJWJ/dataAnalysis/blob/main/01_08B_ivospa_stock_Prophet.ipynb), [PDF 코드](https://ldjwj.github.io/dataAnalysis/01_08B_ivospa_stock_Prophet.pdf), [HTML 코드](https://ldjwj.github.io/dataAnalysis/01_08B_ivospa_stock_Prophet.html)
    
  * [처음목록으로 가기](#데이터-알아가기-실전-실습)
  
