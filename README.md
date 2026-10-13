@@ -174,6 +174,9 @@
    * [github 코드-데이터탐색](https://github.com/LDJWJ/dataAnalysis/blob/main/01_11_MCU_MOVIE_INFO_02.ipynb)
    * [HTML코드-데이터탐색](https://ldjwj.github.io/dataAnalysis/01_11_MCU_MOVIE_INFO_02.html)
 
+ * 추가 분석 1편 - 회귀 과적합 확인, 지역·국가별 흥행 비중 변화와 예산 대비 수익(plotly)
+   * [github 코드 - 추가 분석 1편](https://github.com/LDJWJ/dataAnalysis/blob/main/01_11B_MCU_Regional_Box_Office_Patterns.ipynb)
+   * [HTML코드 - 추가 분석 1편](https://ldjwj.github.io/dataAnalysis/01_11B_MCU_Regional_Box_Office_Patterns.html)
  * [처음목록으로 가기](#데이터-알아가기-실전-실습)
 
 ## 13 인구 예측 및 국가 기반 시설 데이터 분석
