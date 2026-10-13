@@ -167,6 +167,12 @@
    * [github 코드](https://github.com/LDJWJ/dataAnalysis/blob/main/01_10_Heart_Disease.ipynb)
    * [HTML코드](https://ldjwj.github.io/dataAnalysis/01_10_Heart_Disease.html)
    
+ * 추가 분석 1편 - 정확도의 함정 ② : 기준선 비교, 오차행렬, 재현율/F1/ROC-AUC, class_weight와 임계값 조정
+   * [github 코드 - 추가 분석 1편](https://github.com/LDJWJ/dataAnalysis/blob/main/01_10B_Heart_Disease_Accuracy_Trap_Modeling.ipynb)
+   * [HTML코드 - 추가 분석 1편](https://ldjwj.github.io/dataAnalysis/01_10B_Heart_Disease_Accuracy_Trap_Modeling.html)
+ * 추가 분석 2편 - 심장병 위험 요인 분석(연령·건강 자가평가·질병 이력·생활 습관)과 로지스틱 회귀 오즈비 순위 (plotly)
+   * [github 코드 - 추가 분석 2편](https://github.com/LDJWJ/dataAnalysis/blob/main/01_10C_Heart_Disease_Risk_Factors.ipynb)
+   * [HTML코드 - 추가 분석 2편](https://ldjwj.github.io/dataAnalysis/01_10C_Heart_Disease_Risk_Factors.html)
  * [처음목록으로 가기](#데이터-알아가기-실전-실습)
  
 ## 12 MCU Worldwide Box Office Collection 데이터 분석
