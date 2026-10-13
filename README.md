@@ -242,6 +242,9 @@
  * 데이터 내용
   ![데이터 내용 캡쳐 이미지](https://github.com/LDJWJ/dataAnalysis/blob/main/img/data15_pop2.png)
     * 2019년도~2022년도 예술인 목록
+ * 추가 분석 1편 - 시도·시군구 인구 순위, 수도권 집중, 성비·세대당 인구 비교 (plotly 트리맵·산점도)
+   * [github 코드 - 추가 분석 1편](https://github.com/LDJWJ/dataAnalysis/blob/main/01_15B_Population_Data_Analysis.ipynb)
+   * [HTML코드 - 추가 분석 1편](https://ldjwj.github.io/dataAnalysis/01_15B_Population_Data_Analysis.html)
 
 ## 16 표면 균열 검출
  * [건축]
