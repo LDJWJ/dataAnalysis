@@ -124,6 +124,9 @@
  * 데이터 분석 코드
    * [github 코드](https://github.com/LDJWJ/dataAnalysis/blob/main/01_06_WindQT_DataAnalysis.ipynb)
    * [HTML코드](https://ldjwj.github.io/dataAnalysis/01_06_WindQT_DataAnalysis.html)
+ * 추가 분석 1편 - 교차검증 + Pipeline : split 1회 vs StratifiedKFold, 모델 비교, GridSearchCV, 3등급 분류, 변수 중요도
+   * [github 코드 - 추가 분석 1편](https://github.com/LDJWJ/dataAnalysis/blob/main/01_06B_WineQT_CrossValidation_Pipeline.ipynb)
+   * [HTML코드 - 추가 분석 1편](https://ldjwj.github.io/dataAnalysis/01_06B_WineQT_CrossValidation_Pipeline.html)
  * [처음목록으로 가기](#데이터-알아가기-실전-실습)
 
 ## 08 Human Stress Detection in and through Sleep 데이터 분석
