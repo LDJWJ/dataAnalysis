@@ -1,4 +1,6 @@
 # 데이터 알아가기 실전 실습
+> 분석별 핵심 인사이트와 추가 분석 시리즈는 [메인 페이지](https://ldjwj.github.io/dataAnalysis/)에서 한눈에 볼 수 있습니다.
+
  * 01 캘리포니아 집값 데이터 분석 [이동](#01-캘리포니아-집값-데이터-분석)
  * 02 캐글 코리아 4차 대회 [이동](#02-캐글-코리아-4차-대회)
  * 03 뇌졸중 예측 데이터 분석 [이동](#03-뇌졸중-예측-데이터-분석)
@@ -15,10 +17,10 @@
  * 14 문화 예술인 데이터 셋 현황 분석 [이동](#14-문화-예술인-데이터-셋-현황-분석)
  * 15 공공 데이터 분석 [이동](#15-공공-데이터-분석)
  * 16 표면 균열 검출 [이동-준비중](#16-표면-균열-검출)
- * [16 Data Science Salaries 2023 데이터 분석] [이동](#data-science-salaries-2023-데이터-분석)
+ * 17 Data Science Salaries 2023 데이터 분석 [이동](#17-data-science-salaries-2023-데이터-분석)
 
 
-## Data Science Salaries 2023 데이터 분석
+## 17 Data Science Salaries 2023 데이터 분석
  * [취업-연봉]
  * 2023년 데이터 과학 분야 직무 관련 데이터 셋 분석
  * 데이터 출처 : https://www.kaggle.com/datasets/arnabchaki/data-science-salaries-2023 
@@ -26,21 +28,13 @@
  * 데이터 분석 코드
    * [github 코드](https://github.com/LDJWJ/dataAnalysis/blob/main/01_19_DataScienceSalaries_Analysis_2305.ipynb)
    * [HTML코드](https://ldjwj.github.io/dataAnalysis/01_19_DataScienceSalaries_Analysis_2305.html)
- * 추가 분석 (연봉 결정 요인 - 경력 × 기업 규모 × 원격 근무, 직무 그룹화와 표본 수를 고려한 순위)
-   * [github 코드 - 추가 분석](https://github.com/LDJWJ/dataAnalysis/blob/main/01_19B_DataScienceSalaries_Analysis_Advanced.ipynb)
-   * [HTML코드 - 추가 분석](https://ldjwj.github.io/dataAnalysis/01_19B_DataScienceSalaries_Analysis_Advanced.html)
+ * 추가 분석 1편 - 연봉 결정 요인(경력 × 기업 규모 × 원격 근무), 직무 그룹화와 표본 수를 고려한 순위
+   * [github 코드 - 추가 분석 1편](https://github.com/LDJWJ/dataAnalysis/blob/main/01_19B_DataScienceSalaries_Analysis_Advanced.ipynb)
+   * [HTML코드 - 추가 분석 1편](https://ldjwj.github.io/dataAnalysis/01_19B_DataScienceSalaries_Analysis_Advanced.html)
  * 추가 분석 2편 - 연봉 예측 모델(선형 회귀 vs 랜덤포레스트, 교차검증, permutation importance)과 국가별 연봉 지도
    * [github 코드 - 추가 분석 2편](https://github.com/LDJWJ/dataAnalysis/blob/main/01_19C_DataScienceSalaries_Prediction_Model.ipynb)
    * [HTML코드 - 추가 분석 2편](https://ldjwj.github.io/dataAnalysis/01_19C_DataScienceSalaries_Prediction_Model.html)
-
-
-## 캘리포니아 집값 데이터 분석
- * 1990년 미국 인구조사국 자료를 바탕으로 한 캘리포니아 주택 데이터
- * 데이터 출처 : 구글 콜랩 샘플 데이터 셋.
- 
- * 나의 데이터 분석 코드
-   * [github 코드](https://github.com/LDJWJ/dataAnalysis/blob/main/01_01_california.ipynb)
-   * [HTML코드](https://ldjwj.github.io/dataAnalysis/01_01_california.html)
+ * [처음목록으로 가기](#데이터-알아가기-실전-실습)
 
 
 ## 01 캘리포니아 집값 데이터 분석
@@ -59,7 +53,7 @@
  *  [처음목록으로 가기](#데이터-알아가기-실전-실습)
    
 ## 02 캐글 코리아 4차 대회
- * 1990년 미국 인구조사국 자료를 바탕으로 한 캘리포니아 주택 데이터
+ * 성인 인구조사 데이터로 소득 수준 예측하기
  * 대회 기간 : 2020/10/16 ~ 2020/11/28
  * 대회 개요 : 
  * 데이터 출처 : https://www.kaggle.com/c/kakr-4th-competition
@@ -246,23 +240,24 @@
    * 예술디지털 아카이브에 등록된 예술단체 및 예술인 현황 [이동하기](https://www.bigdata-culture.kr/bigdata/user/data_market/detail.do?id=3076e909-db81-4e46-b2e5-f233e5613e97) 
  * 데이터 내용
   ![데이터 내용 캡쳐 이미지](https://github.com/LDJWJ/dataAnalysis/blob/main/img/artist_no14.png)
-    * 2019년도~2022년도 예술인 목록
+    * 2023년 10월 행정구역별 주민등록 인구 (총인구, 세대수, 남자, 여자)
 
  * [처음목록으로 가기](#데이터-알아가기-실전-실습)
 
 
 ## 15 공공 데이터 분석
  * [생활-통계] 
- * 데이터 분석 코드 - 예술인 데이터 셋에 대한 기본 데이터 탐색
+ * 데이터 분석 코드 - 주민등록 인구 데이터에 대한 기본 데이터 탐색
    * [HTML코드](https://ldjwj.github.io/dataAnalysis/01_15_Population_Data.html)
    
  * 데이터 출처 : https://www.mois.go.kr/, 정책 자료 - 통계 - 주민등록 인구통계
  * 데이터 내용
-  ![데이터 내용 캡쳐 이미지](https://github.com/LDJWJ/dataAnalysis/blob/main/img/data15_pop2.png)
-    * 2019년도~2022년도 예술인 목록
+  ![데이터 내용 캡쳐 이미지](https://github.com/LDJWJ/dataAnalysis/blob/main/img/data15_pop2.png?raw=true)
+    * 2023년 10월 행정구역별 주민등록 인구 (총인구, 세대수, 남자, 여자)
  * 추가 분석 1편 - 시도·시군구 인구 순위, 수도권 집중, 성비·세대당 인구 비교 (plotly 트리맵·산점도)
    * [github 코드 - 추가 분석 1편](https://github.com/LDJWJ/dataAnalysis/blob/main/01_15B_Population_Data_Analysis.ipynb)
    * [HTML코드 - 추가 분석 1편](https://ldjwj.github.io/dataAnalysis/01_15B_Population_Data_Analysis.html)
+ * [처음목록으로 가기](#데이터-알아가기-실전-실습)
 
 ## 16 표면 균열 검출
  * [건축]
