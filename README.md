@@ -162,6 +162,9 @@
    * [github 코드](https://github.com/LDJWJ/dataAnalysis/blob/main/01_09_bodyFatPredict.ipynb)
    * [HTML코드](https://ldjwj.github.io/dataAnalysis/01_09_bodyFatPredict.html)
 
+ * 추가 분석 1편 - 줄자로 잴 수 있는 변수만으로 체지방 예측 (Density 누수 확인, 이상치 처리, 변수 1~3개 조합 교차검증, 간단한 계산식)
+   * [github 코드 - 추가 분석 1편](https://github.com/LDJWJ/dataAnalysis/blob/main/01_09B_bodyFat_Simple_Tape_Model.ipynb)
+   * [HTML코드 - 추가 분석 1편](https://ldjwj.github.io/dataAnalysis/01_09B_bodyFat_Simple_Tape_Model.html)
  * [처음목록으로 가기](#데이터-알아가기-실전-실습)
 
 ## 11 Personal Key Indicators of Heart Disease 데이터 분석
