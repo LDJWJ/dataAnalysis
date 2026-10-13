@@ -133,6 +133,9 @@
  * 데이터 분석 코드
    * [github 코드](https://github.com/LDJWJ/dataAnalysis/blob/main/01_07_Human_Stress_Detection.ipynb)
    * [HTML코드](https://ldjwj.github.io/dataAnalysis/01_07_Human_Stress_Detection.html)
+ * 추가 분석 1편 - 너무 좋은 성능(100%) 의심하기 : 상관관계·단일 변수 모델·구간 겹침·합성 데이터 흔적·교차검증 점검
+   * [github 코드 - 추가 분석 1편](https://github.com/LDJWJ/dataAnalysis/blob/main/01_07B_Human_Stress_Too_Good_Performance.ipynb)
+   * [HTML코드 - 추가 분석 1편](https://ldjwj.github.io/dataAnalysis/01_07B_Human_Stress_Too_Good_Performance.html)
  * [처음목록으로 가기](#데이터-알아가기-실전-실습)
 
 ## 09 ibovespa-stocks 브라질 주식 데이터 분석
