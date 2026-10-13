@@ -50,6 +50,12 @@
  * 나의 데이터 분석 코드
    * [github 코드](https://github.com/LDJWJ/dataAnalysis/blob/main/01_01_california.ipynb)
    * [HTML코드](https://ldjwj.github.io/dataAnalysis/01_01_california.html)
+ * 추가 분석 1편 - 지도로 보는 집값 (해안·대도시 거리, 파생 변수, 집값 상한 절단)
+   * [github 코드 - 추가 분석 1편](https://github.com/LDJWJ/dataAnalysis/blob/main/01_01B_California_Housing_Map.ipynb)
+   * [HTML코드 - 추가 분석 1편](https://ldjwj.github.io/dataAnalysis/01_01B_California_Housing_Map.html)
+ * 추가 분석 2편 - 집값 예측 모델 (선형 회귀 vs 랜덤포레스트/그래디언트 부스팅, 파생 변수 효과, 잔차 지도)
+   * [github 코드 - 추가 분석 2편](https://github.com/LDJWJ/dataAnalysis/blob/main/01_01C_California_Housing_Model.ipynb)
+   * [HTML코드 - 추가 분석 2편](https://ldjwj.github.io/dataAnalysis/01_01C_California_Housing_Model.html)
  *  [처음목록으로 가기](#데이터-알아가기-실전-실습)
    
 ## 02 캐글 코리아 4차 대회
