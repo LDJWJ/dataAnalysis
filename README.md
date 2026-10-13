@@ -29,6 +29,9 @@
  * 추가 분석 (연봉 결정 요인 - 경력 × 기업 규모 × 원격 근무, 직무 그룹화와 표본 수를 고려한 순위)
    * [github 코드 - 추가 분석](https://github.com/LDJWJ/dataAnalysis/blob/main/01_19B_DataScienceSalaries_Analysis_Advanced.ipynb)
    * [HTML코드 - 추가 분석](https://ldjwj.github.io/dataAnalysis/01_19B_DataScienceSalaries_Analysis_Advanced.html)
+ * 추가 분석 2편 - 연봉 예측 모델(선형 회귀 vs 랜덤포레스트, 교차검증, permutation importance)과 국가별 연봉 지도
+   * [github 코드 - 추가 분석 2편](https://github.com/LDJWJ/dataAnalysis/blob/main/01_19C_DataScienceSalaries_Prediction_Model.ipynb)
+   * [HTML코드 - 추가 분석 2편](https://ldjwj.github.io/dataAnalysis/01_19C_DataScienceSalaries_Prediction_Model.html)
 
 
 ## 캘리포니아 집값 데이터 분석
