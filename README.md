@@ -71,6 +71,12 @@
    * [github 코드](https://github.com/LDJWJ/dataAnalysis/blob/main/01_02_Stroke_Prediction_Analysis_01.ipynb)
    * [HTML코드](https://ldjwj.github.io/dataAnalysis/01_02_Stroke_Prediction_Analysis_01.html)
    
+ * 추가 분석 1편 - 정확도의 함정 : 기준선(Dummy) 비교, 오차행렬, 정밀도/재현율/F1, ROC·PR 곡선
+   * [github 코드 - 추가 분석 1편](https://github.com/LDJWJ/dataAnalysis/blob/main/01_02B_Stroke_Accuracy_Trap_Metrics.ipynb)
+   * [HTML코드 - 추가 분석 1편](https://ldjwj.github.io/dataAnalysis/01_02B_Stroke_Accuracy_Trap_Metrics.html)
+ * 추가 분석 2편 - 불균형 처리 비교(class_weight, 오버샘플링, 임계값 조정)와 위험 요인 EDA
+   * [github 코드 - 추가 분석 2편](https://github.com/LDJWJ/dataAnalysis/blob/main/01_02C_Stroke_Imbalance_Handling_RiskFactors.ipynb)
+   * [HTML코드 - 추가 분석 2편](https://ldjwj.github.io/dataAnalysis/01_02C_Stroke_Imbalance_Handling_RiskFactors.html)
  * [처음목록으로 가기](#데이터-알아가기-실전-실습)
    
 ## 04 은행파산 위기 데이터 분석
