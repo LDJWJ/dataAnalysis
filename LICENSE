@@ -1,0 +1,37 @@
+Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
+
+Copyright (c) LDJWJ
+
+This repository's own content (analysis notebooks, HTML pages, PDFs, and images)
+is licensed under the Creative Commons Attribution-NonCommercial 4.0
+International License.
+
+You are free to:
+  - Share — copy and redistribute the material in any medium or format
+  - Adapt — remix, transform, and build upon the material
+
+Under the following terms:
+  - Attribution — You must give appropriate credit, provide a link to this
+    repository, and indicate if changes were made.
+  - NonCommercial — You may not use the material for commercial purposes.
+
+No additional restrictions — You may not apply legal terms or technological
+measures that legally restrict others from doing anything the license permits.
+
+Full legal text: https://creativecommons.org/licenses/by-nc/4.0/legalcode
+Human-readable summary: https://creativecommons.org/licenses/by-nc/4.0/
+
+------------------------------------------------------------------------
+Third-party materials (NOT covered by the CC BY-NC 4.0 license above)
+------------------------------------------------------------------------
+  - Datasets in data/ come from Kaggle competitions and datasets, the
+    facebook/prophet repository, Google Colab sample data, and Korean
+    public-data portals (KMA, MOIS). Sources are listed in data/README.md.
+    Their use is governed by each source's terms and competition rules.
+  - spaceship-titanic-eda-27-different-models.ipynb is a copy of a Kaggle
+    notebook by Sanskar Hasija, kept for study reference:
+    https://www.kaggle.com/code/odins0n/spaceship-titanic-eda-27-different-models
+    Copyright remains with the original author.
+
+If you are a rights holder and believe material here is used improperly,
+please contact frontier1020@naver.com and it will be corrected or removed.

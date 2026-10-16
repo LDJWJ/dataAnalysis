@@ -176,4 +176,5 @@ Every analysis project comes with GitHub source code (`.ipynb`), an **HTML viewe
 ## 🔗 License & Contact
 
 * **Contact**: For data analysis collaboration and partnership inquiries: [frontier1020@naver.com](mailto:frontier1020@naver.com)
-* **License**: All materials in this repository are licensed under [CC BY-NC 4.0](LICENSE). You are free to use them for non-commercial purposes as long as you give appropriate credit.
+* **License**: The analysis notebooks, HTML pages, and PDFs written for this repository are licensed under [CC BY-NC 4.0](LICENSE). You are free to use them for non-commercial purposes as long as you give appropriate credit.
+* **Third-party materials**: The datasets in `data/` (Kaggle, public data, etc.; sources in [data/README.md](data/README.md)) and `spaceship-titanic-eda-27-different-models.ipynb` (a copy of Sanskar Hasija's Kaggle notebook) remain under their original owners' rights and terms and are not covered by CC BY-NC 4.0.

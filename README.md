@@ -174,4 +174,5 @@ mindmap
 ## 🔗 라이선스 및 문의
 
 * **문의 사항**: 데이터 분석 협업 및 제휴 문의: [frontier1020@naver.com](mailto:frontier1020@naver.com)
-* **라이선스**: 본 저장소의 모든 자료는 [CC BY-NC 4.0](LICENSE) 라이선스를 따릅니다. 출처를 표시하면 비영리 목적으로 자유롭게 활용하실 수 있습니다.
+* **라이선스**: 직접 작성한 분석 노트북·HTML·PDF는 [CC BY-NC 4.0](LICENSE) 라이선스를 따릅니다. 출처를 표시하면 비영리 목적으로 자유롭게 활용하실 수 있습니다.
+* **제3자 자료**: `data/` 폴더의 데이터(캐글·공공데이터 등, 출처는 [data/README.md](data/README.md))와 `spaceship-titanic-eda-27-different-models.ipynb`(Sanskar Hasija의 캐글 노트북 사본)는 원저작자의 권리와 이용 조건을 따르며 CC BY-NC 4.0이 적용되지 않습니다.

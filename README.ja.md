@@ -176,4 +176,5 @@ mindmap
 ## 🔗 ライセンスとお問い合わせ
 
 * **お問い合わせ**: データ分析の協業・提携に関するお問い合わせ: [frontier1020@naver.com](mailto:frontier1020@naver.com)
-* **ライセンス**: 本リポジトリのすべての資料は [CC BY-NC 4.0](LICENSE) ライセンスに従います。出典を明記すれば、非営利目的で自由にご活用いただけます。
+* **ライセンス**: 本リポジトリのために作成した分析ノートブック・HTML・PDF は [CC BY-NC 4.0](LICENSE) ライセンスに従います。出典を明記すれば、非営利目的で自由にご活用いただけます。
+* **第三者の資料**: `data/` フォルダのデータ（Kaggle・公共データなど、出典は [data/README.md](data/README.md)）と `spaceship-titanic-eda-27-different-models.ipynb`（Sanskar Hasija 氏の Kaggle ノートブックの写し）は原著作者の権利と利用条件に従い、CC BY-NC 4.0 は適用されません。
