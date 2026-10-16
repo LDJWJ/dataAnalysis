@@ -2,6 +2,8 @@
 title: 데이터 알아가기 실전 실습
 ---
 
+🇰🇷 **한국어** · 🇺🇸 [English](README.en.md) · 🇯🇵 [日本語](README.ja.md)
+
 <style>
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px;margin:16px 0}
 .card{border:1px solid #d0d7de;border-radius:10px;padding:16px;background:#fff}
