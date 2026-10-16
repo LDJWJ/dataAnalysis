@@ -1,4 +1,4 @@
-🇰🇷 [한국어](README.md) · 🇺🇸 [English](README.en.md) · 🇯🇵 **日本語**
+🇰🇷 [한국어](https://github.com/LDJWJ/dataAnalysis/blob/main/README.md) · 🇺🇸 [English](README.en.md) · 🇯🇵 **日本語**
 
 # 📊 データを知る 実践分析プロジェクト (dataAnalysis)
 
@@ -16,9 +16,9 @@
 
 > **実際のビジネス・医療・金融・公共データセットで仕上げる、実践データ分析（EDA）＆機械学習ポートフォリオ！**  
 > Kaggle と韓国の公共データポータルにある 17 以上の多様なドメインのデータをもとに、欠損値処理、特徴量エンジニアリング、Plotly によるインタラクティブな可視化、交差検証パイプライン、予測モデリングを行った実践プロジェクト集です。  
-> ⭐️ 学習のお役に立ちましたら、右上の **Star** ボタンをぜひ押してください！
+> ⭐️ 役に立ったら、右上の **Star** ボタンを押していただけるとうれしいです！
 
-> **ご注意：** 教材（PDF/HTML）はすべて **韓国語** で書かれています。コードはそのまま実行でき、HTMLページはブラウザ（Chromeなど）の自動翻訳で読むことができます。
+> **補足：** 教材（PDF/HTML）はすべて韓国語です。コード自体は言語に依存せずそのまま動作し、HTMLページはブラウザ（Chromeなど）の自動翻訳で読めます。
 
 <p align="center">
   <a href="#️-ドメイン別プロジェクトマップ">🗺️ ドメインマップ</a> •
@@ -69,7 +69,7 @@ mindmap
 |:---:|:---|:---:|:---|:---:|:---:|:---:|
 | **01** | **データサイエンティストの年収分析（2023）** | 就職・年収 | 職種別/国別の給与統計、可視化 | [Kaggle](https://www.kaggle.com/datasets/arnabchaki/data-science-salaries-2023) | [💻 GitHub](https://github.com/LDJWJ/dataAnalysis/blob/main/01_19_DataScienceSalaries_Analysis_2305.ipynb) · [🌐 HTML](https://ldjwj.github.io/dataAnalysis/01_19_DataScienceSalaries_Analysis_2305.html) | — |
 | **02** | **カリフォルニア住宅価格分析** | 不動産 | 地理的可視化、回帰モデリング | Colab Sample | [💻 GitHub](https://github.com/LDJWJ/dataAnalysis/blob/main/01_01_california.ipynb) · [🌐 HTML](https://ldjwj.github.io/dataAnalysis/01_01_california.html) | [🌐 第1回：住宅価格マップ](https://ldjwj.github.io/dataAnalysis/01_01B_california_Price_Map.html) · [🌐 第2回：特徴量モデル](https://ldjwj.github.io/dataAnalysis/01_01C_california_Feature_Models.html) |
-| **03** | **Kaggle Korea 第4回 成人の所得予測** | 所得・分類 | 特徴量エンジニアリング、One-Hot、LightGBM | [Kaggle](https://www.kaggle.com/c/kakr-4th-competition) | [🌐 上位ソリューション分析](https://ldjwj.github.io/ML_Basic_Class/part03_ml/part03_pro_kaggle/kaggle_contest_4th_05_1st_review.html) | — |
+| **03** | **Kaggle Korea 第4回 成人の所得予測** | 所得・分類 | 特徴量エンジニアリング、One-Hot、LightGBM | [Kaggle](https://www.kaggle.com/c/kakr-4th-competition) | [🌐 上位解法分析](https://ldjwj.github.io/ML_Basic_Class/part03_ml/part03_pro_kaggle/kaggle_contest_4th_05_1st_review.html) | — |
 | **04** | **脳卒中（Stroke）の発症予測** | 医療 | 不均衡データ、ロジスティック回帰/決定木 | [Kaggle](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset) | [💻 GitHub](https://github.com/LDJWJ/dataAnalysis/blob/main/01_02_Stroke_Prediction_Analysis_01.ipynb) · [🌐 HTML](https://ldjwj.github.io/dataAnalysis/01_02_Stroke_Prediction_Analysis_01.html) | [🌐 第1回：正解率の罠](https://ldjwj.github.io/dataAnalysis/01_02B_Stroke_Accuracy_Trap.html) |
 | **05** | **銀行の破綻リスク予測** | 金融 | リスク分類モデリング、特徴量変換 | [Kaggle](https://www.kaggle.com/competitions/bankruptcy-risk-prediction) | [💻 GitHub](https://github.com/LDJWJ/dataAnalysis/blob/main/01_03_Bankruptcy_Risk_Prediction02.ipynb) · [🌐 HTML](https://ldjwj.github.io/dataAnalysis/01_03_Bankruptcy_Risk_Prediction04_withkaggle_V10.html) | [📄 PDF レポート](https://ldjwj.github.io/dataAnalysis/01_03_Bankruptcy_Risk_Prediction04_withkaggle_V10.pdf) |
 | **06** | **Spaceship Titanic 予測** | 宇宙・分類 | 欠損値補完、ラベルエンコーディング、アンサンブル | [Kaggle](https://www.kaggle.com/competitions/spaceship-titanic/data) | [🌐 HTML](https://ldjwj.github.io/dataAnalysis/01_04A_Spaceship_Titanic.html) · [📄 PDF](https://ldjwj.github.io/dataAnalysis/01_04A_Spaceship_Titanic.PDF) | — |

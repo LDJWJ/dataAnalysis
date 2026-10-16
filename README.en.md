@@ -1,10 +1,10 @@
-🇰🇷 [한국어](README.md) · 🇺🇸 **English** · 🇯🇵 [日本語](README.ja.md)
+🇰🇷 [한국어](https://github.com/LDJWJ/dataAnalysis/blob/main/README.md) · 🇺🇸 **English** · 🇯🇵 [日本語](README.ja.md)
 
 # 📊 Getting to Know Data: Hands-on Analysis Projects (dataAnalysis)
 
 <p align="center">
   <a href="https://ldjwj.github.io/dataAnalysis/README.en.html">
-    <img src="https://img.shields.io/badge/🌐_Visit_the_Web_Portfolio-GitHub_Pages-2563EB?style=for-the-badge&logo=githubpages&logoColor=white" alt="Web Page"/>
+    <img src="https://img.shields.io/badge/🌐_Web_Portfolio-GitHub_Pages-2563EB?style=for-the-badge&logo=githubpages&logoColor=white" alt="Web Page"/>
   </a>
   <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.10+"/>
   <img src="https://img.shields.io/badge/Pandas-EDA_%26_Preprocessing-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/>
@@ -18,7 +18,7 @@
 > A collection of practical projects covering missing-value handling, feature engineering, interactive Plotly visualization, cross-validation pipelines and predictive modeling, based on data from 17+ different domains sourced from Kaggle and the Korea Public Data Portal.  
 > ⭐️ If this helped your learning, please press the **Star** button at the top right!
 
-> **Note:** All slides and notebooks (PDF/HTML) are written in Korean. The code runs the same in any language, and your browser's built-in translation (e.g. Chrome) works on the HTML pages.
+> **Note:** All slides and notebooks (PDF/HTML) are in Korean. The code itself is language-independent, and your browser's built-in translation (e.g. Chrome) works on the HTML pages.
 
 <p align="center">
   <a href="#️-project-map-by-domain">🗺️ Domain Map</a> •
@@ -38,11 +38,11 @@ mindmap
   root((📊 dataAnalysis<br>Hands-on Data Analysis))
     💰 Finance & Economics
       Data Science Salaries 2023 (salary analysis)
-      Bank Bankruptcy Risk Prediction (Bankruptcy Risk)
+      Bankruptcy Risk Prediction
       Brazilian Stock Time-Series Forecasting (ibovespa / Prophet / interest rates & FX)
       Kaggle Korea 4th Competition (adult income prediction)
     🏥 Medical & Healthcare
-      Stroke Risk Prediction (Stroke Prediction)
+      Stroke Risk Prediction
       Key Indicators of Heart Disease (the accuracy trap / odds ratio ranking)
       Stress Detection During Sleep (SaYoPillow)
       Body Fat Percentage Estimation (simple tape-measure model)
